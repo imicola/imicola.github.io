@@ -21,7 +21,7 @@
     "sync": "node sync-notes.js",
     "preview": "node sync-notes.js && npx quartz build --serve",
     "build": "node sync-notes.js && npx quartz build",
-    "deploy": "node sync-notes.js && npx quartz build && npx quartz sync"
+    "deploy": "node sync-notes.js && npx quartz build && git add . && git commit -m \"Update site\" && git push"
   },
   "engines": {
     "npm": ">=10.9.2",
