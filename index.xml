@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>曦&#039;s Blog</title>
+      <title>imicola&#039;s Blog</title>
       <link>https://imicola.github.io</link>
-      <description>最近的10条笔记 on 曦&#039;s Blog</description>
+      <description>最近的10条笔记 on imicola&#039;s Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>BFS 广度优先搜索</title>
