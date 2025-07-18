@@ -9,7 +9,7 @@
   "homepage": "https://quartz.jzhao.xyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/imicola/imicola.github.io.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
@@ -17,7 +17,11 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "sync": "node sync-notes.js",
+    "preview": "node sync-notes.js && npx quartz build --serve",
+    "build": "node sync-notes.js && npx quartz build",
+    "deploy": "node sync-notes.js && npx quartz build && npx quartz sync"
   },
   "engines": {
     "npm": ">=10.9.2",
@@ -48,6 +52,7 @@
     "d3": "^7.9.0",
     "esbuild-sass-plugin": "^3.3.1",
     "flexsearch": "0.7.43",
+    "fs-extra": "^11.3.0",
     "github-slugger": "^2.0.0",
     "globby": "^14.1.0",
     "gray-matter": "^4.0.3",
