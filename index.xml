@@ -6,6 +6,12 @@
       <description>最近的10条笔记 on imicola&#039;s Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>index</title>
+    <link>https://imicola.github.io/</link>
+    <guid>https://imicola.github.io/</guid>
+    <description><![CDATA[  从知识到人生 个人图书馆 for imicola 🚀 C++ 程序设计 从入门到进阶，探索C++的强大功能与优雅实现。 基础语法 STL 标准库 🧠 ACM 与算法 算法竞赛的笔记、解题思路与实战总结。 算法笔记 动态规划 题解汇总 💻 计算机基础 探索计算机世界的基石，掌握高效工具与核心知识。 MIT Missing Semester Linux 探索 📚 大学归档 课程学习的资料沉淀与期末复习笔记。 高等数学 离散数学 🛠️ 杂项与工具 一些零散的知识点、工具学习笔记和待办事项。 正则表达式 Latex 暑期计划 . ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:12:44 GMT</pubDate>
+  </item><item>
     <title>BFS 广度优先搜索</title>
     <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/BFS-%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2</link>
     <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/BFS-%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2</guid>
@@ -58,12 +64,6 @@
     <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E4%BA%8C%E8%BF%9B%E5%88%B6</link>
     <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E4%BA%8C%E8%BF%9B%E5%88%B6</guid>
     <description><![CDATA[ 数学 二进制 位运算 快速获取某一个数的二进制 法一: 从原理上获取 一个数的二进制的计算可以通过将这个数反复整除2且取模2来获得其位数，直到这个数变为0 #include &lt;iostream&gt; #include &lt;vector&gt; std::string decimalToBinary(int n) { if (n == 0) return &quot;0&quot;; std::string binary; while (n &gt; 0) { binary = (n % 2 == 0 ? &quot;0&quot; : &quot;1&quot;) + binary... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 03:33:54 GMT</pubDate>
-  </item><item>
-    <title>位运算</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E4%BD%8D%E8%BF%90%E7%AE%97</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E4%BD%8D%E8%BF%90%E7%AE%97</guid>
-    <description><![CDATA[ 位运算 二进制 数学 两数之间的运算符 两数的运算符有 「与，或，异或」三种运算方式，它们都是将两个整数作为二进制数，对二进制表示中的每一位逐一运算。 运算运算符数学符号解释与&amp;\And,and只有两个对应位都为 1 时才为 1或|\mid,or只要两个对应位中有一个 1 时就为 1异或^\oplus,xor只有两个对应位不同时才为 1 一些总结经验： 对或(|)运算而言，有如下性质： a \mid b = b \mid a \left( a \mid b \right) \mid c = \left( b \mid c \right) \mid a a \mid 0 = a a \m... ]]></description>
     <pubDate>Fri, 18 Jul 2025 03:33:54 GMT</pubDate>
   </item>
     </channel>
