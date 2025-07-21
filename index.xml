@@ -6,16 +6,34 @@
       <description>最近的10条笔记 on imicola&#039;s Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>笔记属性</title>
+    <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
+    <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 21 Jul 2025 06:15:14 GMT</pubDate>
+  </item><item>
+    <title>sed</title>
+    <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sed</link>
+    <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sed</guid>
+    <description><![CDATA[ sed(stream editor) 是非交互式文本流编辑器，它逐行处理文本，依据输入的指令对文本进行转换 基本用法 sed [选项] &#039;脚本&#039; 文件名 # 或者 命令 | sed [选项] &#039;脚本&#039; Tip sed 命令的构造是抽象的，这里我们只举一些常用例子 替换 语法 ： s/正则表达式/替换内容/标注 标注: 可选参数 g 替换所有匹配项目(默认只会替换每行第一个) i 忽略大小写 p 打印发生替换的行 (需要与-n选项一起使用) w 将更改写入文件 例如：将系统日志中所有”Error”(忽略大小写)变成”ERROR!!” 并且打印 journa... ]]></description>
+    <pubDate>Mon, 21 Jul 2025 03:51:18 GMT</pubDate>
+  </item><item>
     <title>数位DP</title>
     <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/%E6%95%B0%E4%BD%8DDP</link>
     <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/%E6%95%B0%E4%BD%8DDP</guid>
     <description><![CDATA[  ]]></description>
     <pubDate>Sat, 19 Jul 2025 16:00:00 GMT</pubDate>
   </item><item>
+    <title>less</title>
+    <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/less</link>
+    <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/less</guid>
+    <description><![CDATA[ less 命令是一个非常强大的 Linux 工具，用于在终端中查看文件内容或输入内容。 它比 cat 命令更适合查看大文件，因为它不会一次性将整个文件加载到内存中，而是允许你逐页或逐行浏览。 基本用法 基本语法是: less [文件名称] 如我们要查看 file.txt 的内容可以输入 less file.txt less界面操作 与vim类似的是,less界面使用 j k 空格 b 来进行基本的导航 j k 向 下/上 滚动一行 空格 b 向 下/上 滚动一页 g G 跳转到文件 头/尾 {数字} + g/G 跳转到指定行 d u 向 前/后 滚动半屏 搜索 / 向下搜索,使用 n/N 导航... ]]></description>
+    <pubDate>Sat, 19 Jul 2025 16:00:00 GMT</pubDate>
+  </item><item>
     <title>数据整理</title>
     <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86</link>
     <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86</guid>
-    <description><![CDATA[ 当我们试图在输出很多的地方(系统日志,长文本)中找到自己需要的东西的时候,我们就需要进行数据的整理 在之前的学习中,我们就已经接触过一些数据整理的基本技术.比如当我们使用 | 管道运算符向 grep 发送东西的时候,实际上就是一种数据整理,例如 history | grep &quot;grep&quot; 就是在我输入过的命令中寻找 grep 如何进行数据整理 例如当我们试图在系统日志中找到imicola. ]]></description>
+    <description><![CDATA[ 当我们试图在输出很多的地方(系统日志,长文本)中找到自己需要的东西的时候,我们就需要进行数据的整理 在之前的学习中,我们就已经接触过一些数据整理的基本技术.比如当我们使用 | 管道运算符向 grep 发送东西的时候,实际上就是一种数据整理,例如 history | grep &quot;grep&quot; 就是在我输入过的命令中寻找 grep 如何进行数据整理 在linux里进行数据整理最核心的就是grep类的命令 例如当我们试图在系统日志中找到 imicola 使用 root 用命令做过多少坏事,那么我们就可以用 $ journalctl | grep imicola 来获取日志中所有含有... ]]></description>
     <pubDate>Sat, 19 Jul 2025 16:00:00 GMT</pubDate>
   </item><item>
     <title>杂项练习笔记1</title>
@@ -46,24 +64,6 @@
     <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/%E8%83%8C%E5%8C%85DP</link>
     <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/%E8%83%8C%E5%8C%85DP</guid>
     <description><![CDATA[ 背包问题 动态规划 背包DP 两个特点： 一个物体有 大小 + 价值 有一个背包只能容纳某一个特定大小 要求：找最大价值 一般性转移方程——&gt; 设背包大小为 N,有 Y 个物品 , 物品价值为 val_i 物品大小为 size_j 设dp[i][j] 表示任取 0\to i 个物品在j时间下取得的\sum a_k的最大值 初始化见下： vector&lt;vector&lt;int&gt;&gt; dp(Y,vector&lt;int&gt;(N+1,0)); //对[0]行的初始 for (size_t i = size[0]; i &lt;= N; i++) { dp[0][i] =... ]]></description>
-    <pubDate>Thu, 17 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Ranges库</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/Ranges%E5%BA%93</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/Ranges%E5%BA%93</guid>
-    <description><![CDATA[ 语法 range::find(v,‘1’); 在容器 v 内查找传入的第二个参数，返回值是第一个找到的参数的迭代器，如果没找到，则返回v.end() range::minmax(v) 以一个pair形式返回容器中的最大值和最小值 //常用接收形式 auto [s1,s2] = ranges::minmax(v) ranges::max_element(v) 如果不进行二次传参，则返回范围内最大的一个元素的迭代器 如果进行二次传参，则可以创建一个映射关系，返回映射关系下最大的那个元素的迭代器，例如： vector&lt;string&gt; v = {&quot;12&quot;,&quot;1... ]]></description>
-    <pubDate>Thu, 17 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Readme</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/Readme</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/Readme</guid>
-    <description><![CDATA[ 如何优雅地食用这个 C++ 语法笔记仓库？ 确保你拥有 git 并掌握一定的git知识 确保你使用的笔记软件是 obsidian 确保你会使用github的基础功能 准备工作完毕，现在开始食用吧 同步更新使用如下 fork这个仓库 到你fork好的仓库里，用git克隆下来这个仓库 用 obsidian 打开这个仓库如下的路径： D:\Code film\C++\memo\C++语法(新) 定期用git同步fork的仓库即可 非同步更新如下： 使用git克隆这个仓库 git clone github.com/imicola/Questions-and-Impressions.git 用 obsi... ]]></description>
-    <pubDate>Thu, 17 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>stringstream</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/stringstream</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/stringstream</guid>
-    <description><![CDATA[ 语法 字符串 C++针对字符串的读写有一套专门的方法，即stringstream 语法规则： stringstream ss(str) str是你想进行操作的字符串 场景： 读取字符串中的数据：你可以通过 stringstream 从字符串中提取整数、浮动数、字符等。 将数据写入字符串：可以将不同类型的数据输出到一个字符串中。 main(){ //读入 std::stringstream ss(str); int num1, num2; ss &gt;&gt; num1 &gt;&gt; num2; // 从stringstream读取数据 std::cout &lt;&lt; &quot;n... ]]></description>
     <pubDate>Thu, 17 Jul 2025 16:00:00 GMT</pubDate>
   </item>
     </channel>
