@@ -10,19 +10,37 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 22 Jul 2025 14:09:03 GMT</pubDate>
+    <pubDate>Wed, 23 Jul 2025 10:12:37 GMT</pubDate>
+  </item><item>
+    <title>CS61A 计算机程序结构与解释</title>
+    <link>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</link>
+    <guid>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</guid>
+    <description><![CDATA[ CS61系列是伯克利CS专业入门课，其中： CS61A强调抽象，让学生掌握用程序来解决实际问题，而不关注底层的硬件细节。 注意CS61A虽然明面上是Python的语言课程，其中会有很多抽象的思想和程序构造与运行的原理 本课程一共39课时，使用记录式学习而非任务驱动，而具体安排将会被放在 google tasks Lecture1 : Wecome [ ] . ]]></description>
+    <pubDate>Wed, 23 Jul 2025 04:21:07 GMT</pubDate>
+  </item><item>
+    <title>kill</title>
+    <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/kill</link>
+    <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/kill</guid>
+    <description><![CDATA[ Linux的 kill 命令用于向进程发送指定信号以终止或控制进程。 默认情况下，它发送SIGTERM通知进程优雅退出，允许程序执行清理操作。 若进程无响应，可使用-9参数发送SIGKILL强制终止（如kill -9 PID）。 需通过ps、pgrep等命令获取目标进程的PID（进程ID）。常用参数包括：-l列出所有信号，-p指定进程组等。 注意：强制终止可能导致数据丢失，操作前需谨慎确认PID；部分情况需管理员权限（如终止系统进程）。例如：killall nginx可终止所有nginx进程。 . ]]></description>
+    <pubDate>Tue, 22 Jul 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>sort</title>
+    <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</link>
+    <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</guid>
+    <description><![CDATA[ sort 命令简介 sort 命令是 Linux/Unix 系统中一个非常实用的工具，主要用于对文本文件的行进行排序。它可以根据不同的规则对文本内容进行升序或降序排列。 基本用法 最简单的用法是直接对文件进行排序并输出到标准输出： sort filename 这会按字母顺序（默认升序）排列 filename 中的每一行。 常用选项 -r (或 --reverse):反向排序（降序）。 sort -r filename -n (或 --numeric-sort): 按数值排序。当行中包含数字时，这个选项会按照数字的大小而不是字母顺序来排序。 sort -n filename -k (或 --ke... ]]></description>
+    <pubDate>Tue, 22 Jul 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>命令行环境</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83</guid>
+    <description><![CDATA[ 当我们在学习这一门课程的时候，我们是否发现自己都在一个进程中进行工作，而有的时候我们需要更好的工作，就需要对多个命令和进程之间进行协调 在这一节中我们将学习一些改善我们工作流与体验的操作思想 进程控制 某些情况下我们需要中断正在执行的任务，比如当find在递归搜索一个非常大的目录的时候，大多数情况下，我们都可以使用 Ctrl-c 来停止命令的执行 但是在有的时候，会无法结束进程，这需要我们去深入探讨其底层原理 结束进程 我们的shell在结束一个进程的时候，通常都是发送一个信号来 “通知” 进程结束，这个进程接受到这个信号后会做出一系列反应。就这一点而言，信号是一直 软件中断 在上面的例子中，... ]]></description>
+    <pubDate>Tue, 22 Jul 2025 16:00:00 GMT</pubDate>
   </item><item>
     <title>在之前</title>
     <link>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E5%9C%A8%E4%B9%8B%E5%89%8D</link>
     <guid>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E5%9C%A8%E4%B9%8B%E5%89%8D</guid>
     <description><![CDATA[ 一份人生不应该只有理性的学习与对学业事业的偏执追求，一份人生包含的应该是万物，是存在与世界上的，能被我们所看到的光景。也有属于我们自己的理想与思考. ]]></description>
     <pubDate>Mon, 21 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>sort</title>
-    <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</link>
-    <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 21 Jul 2025 14:52:33 GMT</pubDate>
   </item><item>
     <title>sed</title>
     <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sed</link>
@@ -47,24 +65,6 @@
     <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86</guid>
     <description><![CDATA[ 当我们试图在输出很多的地方(系统日志,长文本)中找到自己需要的东西的时候,我们就需要进行数据的整理 在之前的学习中,我们就已经接触过一些数据整理的基本技术.比如当我们使用 | 管道运算符向 grep 发送东西的时候,实际上就是一种数据整理,例如 history | grep &quot;grep&quot; 就是在我输入过的命令中寻找 grep 如何进行数据整理 在linux里进行数据整理最核心的就是grep类的命令 例如当我们试图在系统日志中找到 imicola 使用 root 用命令做过多少坏事,那么我们就可以用 $ journalctl | grep imicola 来获取日志中所有含有... ]]></description>
     <pubDate>Sat, 19 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>杂项练习笔记1</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%9D%82%E9%A1%B9%E7%AC%94%E8%AE%B0/%E6%9D%82%E9%A1%B9%E7%BB%83%E4%B9%A0%E7%AC%94%E8%AE%B01</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%9D%82%E9%A1%B9%E7%AC%94%E8%AE%B0/%E6%9D%82%E9%A1%B9%E7%BB%83%E4%B9%A0%E7%AC%94%E8%AE%B01</guid>
-    <description><![CDATA[ 杂项练习 0 点子王 万能头文件 #include&lt;bits/stdc++.h&gt;(可以解决大部分头文件问题) 使用 printf(&quot;%.2f&quot;,[输出])来输出保留两位的小数 小写字母的ASCII码是大写字母的ASCII + 32 在处理时间问题时，我们不妨全部转化为最小的时间单位，再用循环回复时间格式 字符串/字符 进行比较的时候要用stramp(a,b) 当 str1 &lt; str2 时，返回为负数(-1)； 当 str1 == str2 时，返回值= 0； 当 str1 &gt; str2 时，返回正数(1)。 Tip 更新：对字符串来说也可以用 ==... ]]></description>
-    <pubDate>Fri, 18 Jul 2025 03:33:54 GMT</pubDate>
-  </item><item>
-    <title>BFS 广度优先搜索</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/BFS-%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/BFS-%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2</guid>
-    <description><![CDATA[ 搜索 递归与递推 BFS 广度优先搜索 在前面我们介绍过深度优先搜索 DFS，深搜的核心思想是一条路走到底，直到得到符合的结果或者超出边界情况结束 而广度优先搜索则是从起始位置出发，每一次向外增加一圈，或执行完一大个操作之后再将计数变量增加 广搜一般适用于求最短路径，求最少操作次数的这些操作，因为广搜本身便是向外扩散式的一种搜索 广搜一般使用STL中的Queue 队列作为承接模板，通过其先进先出的特点实现广搜 例题：洛谷P1135 奇怪的电梯 signed main() { int n, a, b; cin &gt;&gt; n &gt;&gt; a &gt;&gt; b; vector&lt... ]]></description>
-    <pubDate>Thu, 17 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Boyer-Moore 投票算法</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/Boyer-Moore-%E6%8A%95%E7%A5%A8%E7%AE%97%E6%B3%95</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/Boyer-Moore-%E6%8A%95%E7%A5%A8%E7%AE%97%E6%B3%95</guid>
-    <description><![CDATA[ 模拟 模板 Boyer-Moore 投票算法 背景：数组中占比超过一半的元素称之为主要元素。给你一个 整数 数组，找出其中的主要元素，若不存在，输出 -1 一般我们习惯想到的方法是利用unordered_map 来存储每个数出现的次数，当发现有数字超过一半的时候，输出该数字，没有则在最后输出 -1 上述方法时间复杂度和空间复杂度均为 O(n) ,而接下来介绍的算法，可以让空间复杂度降低到 O(1) Boyer-Moore 投票算法的基本思想是：在每一轮投票过程中，从数组中删除两个不同的元素，直到投票过程无法继续，此时数组为空或者数组中剩下的元素都相等 如果数组为空，则数组不存在主要元素 如果数... ]]></description>
-    <pubDate>Thu, 17 Jul 2025 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
