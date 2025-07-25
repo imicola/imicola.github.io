@@ -10,7 +10,25 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 23 Jul 2025 10:12:37 GMT</pubDate>
+    <pubDate>Fri, 25 Jul 2025 13:21:26 GMT</pubDate>
+  </item><item>
+    <title>最好的linux发行版——WSL2的使用</title>
+    <link>https://imicola.github.io/Linux/%E6%8A%98%E8%85%BE/%E6%9C%80%E5%A5%BD%E7%9A%84linux%E5%8F%91%E8%A1%8C%E7%89%88%E2%80%94%E2%80%94WSL2%E7%9A%84%E4%BD%BF%E7%94%A8</link>
+    <guid>https://imicola.github.io/Linux/%E6%8A%98%E8%85%BE/%E6%9C%80%E5%A5%BD%E7%9A%84linux%E5%8F%91%E8%A1%8C%E7%89%88%E2%80%94%E2%80%94WSL2%E7%9A%84%E4%BD%BF%E7%94%A8</guid>
+    <description><![CDATA[ 在微软开源WSL2之前我就已经对WSL2产生了十足的好感，没想到微软直接开源了WSL2,现在WSL2社区也是好起来了，只看 wsl --list online 上的发行版就达到了20种 正话：什么是WSL? wsl全称是 Windows Subsystem for Linux,即适用于 Linux 的 Windows 子系统，可以让你在 Windows 上近乎无损的使用 Linux 命令行 下面我提供一种配置方式，采用发行版是 manjaro for wsl2 配置 先看效果： 第一步，你需要先去 github 下载 manjaro for wsl2的发行版 release 下载后解压文件并双... ]]></description>
+    <pubDate>Thu, 24 Jul 2025 16:17:23 GMT</pubDate>
+  </item><item>
+    <title>版本控制(Git)</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6(Git)</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6(Git)</guid>
+    <description><![CDATA[ 版本控制系统(VCSs)是一类用于追踪源代码(或其他文件、文件夹)改动的工具。顾名思义，这些工具可以帮助我们实行版本控制和管理代码/文件的修改历史 即使我们一个人进行工作，git都可以帮我们建立快照，记录每个改动的目的，基于多分支并行开发。而在多人协作开发的时候，我们可以看见别人对项目的修改，也可以解决并行开发从而引起的冲突 而在现代IDE的加持和git的现代化下，我们可以很轻易的了解到git储存库内的提交和修改，也可以用可视化的方式看到git并行开发的数据 要学习git的基本命令与操作我会建议你去 git小游戏 上进行游玩学习，而这里面会教授大部分git命令，所以我们在此不多赘述. ]]></description>
+    <pubDate>Thu, 24 Jul 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>1.Introduce</title>
+    <link>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/1.Introduce</link>
+    <guid>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/1.Introduce</guid>
+    <description><![CDATA[  在开始前必须明确，本课程在不说明的情况下所有的程序运行均在 manjaro for wsl2 下执行，一些不涉及大型项目的操作与作业程序也均在上述操作系统下进行 1.0.导论 在学习这个课程之前，建议先修课程 程序设计基础 MIT-Missing-Semester (可选) 为了定义计算过程，我们需要一种被人们广泛使用和各类电脑广泛接受的编程语言，在本课程中，我们将主要使用 Python 语言。 因为这一门课程都会使用Python作为编程语言，所以必须好好配置我们的编程环境 我这里选择 Visual Studio Code + wsl2 进行编写代码 由于Linux的原因，我们可以非常轻松的... ]]></description>
+    <pubDate>Wed, 23 Jul 2025 16:00:00 GMT</pubDate>
   </item><item>
     <title>CS61A 计算机程序结构与解释</title>
     <link>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</link>
@@ -47,24 +65,6 @@
     <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sed</guid>
     <description><![CDATA[ sed(stream editor) 是非交互式文本流编辑器，它逐行处理文本，依据输入的指令对文本进行转换 基本用法 sed [选项] &#039;脚本&#039; 文件名 # 或者 命令 | sed [选项] &#039;脚本&#039; Tip sed 命令的构造是抽象的，这里我们只举一些常用例子 替换 语法 ： s/正则表达式/替换内容/标注 标注: 可选参数 g 替换所有匹配项目(默认只会替换每行第一个) i 忽略大小写 p 打印发生替换的行 (需要与-n选项一起使用) w 将更改写入文件 例如：将系统日志中所有”Error”(忽略大小写)变成”ERROR!!” 并且打印 journa... ]]></description>
     <pubDate>Mon, 21 Jul 2025 03:51:18 GMT</pubDate>
-  </item><item>
-    <title>数位DP</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/%E6%95%B0%E4%BD%8DDP</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/%E6%95%B0%E4%BD%8DDP</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 19 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>less</title>
-    <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/less</link>
-    <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/less</guid>
-    <description><![CDATA[ less 命令是一个非常强大的 Linux 工具，用于在终端中查看文件内容或输入内容。 它比 cat 命令更适合查看大文件，因为它不会一次性将整个文件加载到内存中，而是允许你逐页或逐行浏览。 基本用法 基本语法是: less [文件名称] 如我们要查看 file.txt 的内容可以输入 less file.txt less界面操作 与vim类似的是,less界面使用 j k 空格 b 来进行基本的导航 j k 向 下/上 滚动一行 空格 b 向 下/上 滚动一页 g G 跳转到文件 头/尾 {数字} + g/G 跳转到指定行 d u 向 前/后 滚动半屏 搜索 / 向下搜索,使用 n/N 导航... ]]></description>
-    <pubDate>Sat, 19 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>数据整理</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86</guid>
-    <description><![CDATA[ 当我们试图在输出很多的地方(系统日志,长文本)中找到自己需要的东西的时候,我们就需要进行数据的整理 在之前的学习中,我们就已经接触过一些数据整理的基本技术.比如当我们使用 | 管道运算符向 grep 发送东西的时候,实际上就是一种数据整理,例如 history | grep &quot;grep&quot; 就是在我输入过的命令中寻找 grep 如何进行数据整理 在linux里进行数据整理最核心的就是grep类的命令 例如当我们试图在系统日志中找到 imicola 使用 root 用命令做过多少坏事,那么我们就可以用 $ journalctl | grep imicola 来获取日志中所有含有... ]]></description>
-    <pubDate>Sat, 19 Jul 2025 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
