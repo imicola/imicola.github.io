@@ -10,7 +10,19 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 26 Jul 2025 14:07:31 GMT</pubDate>
+    <pubDate>Sun, 27 Jul 2025 17:24:20 GMT</pubDate>
+  </item><item>
+    <title>CS61A 计算机程序结构与解释</title>
+    <link>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</link>
+    <guid>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</guid>
+    <description><![CDATA[ CS61系列是伯克利CS专业入门课，其中： CS61A强调抽象，让学生掌握用程序来解决实际问题，而不关注底层的硬件细节。 注意CS61A虽然明面上是Python的语言课程，其中会有很多抽象的思想和程序构造与运行的原理 本课程一共39课时，使用记录式学习而非任务驱动，而具体安排将会被放在 google tasks Lecture1 : Wecome [7.24 → 7.26] Lecture2 : Functions [7.26 → ?] Lecture3 : . ]]></description>
+    <pubDate>Sun, 27 Jul 2025 08:48:50 GMT</pubDate>
+  </item><item>
+    <title>语言类型与转换</title>
+    <link>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/%E8%AF%AD%E8%A8%80%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BD%AC%E6%8D%A2</link>
+    <guid>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/%E8%AF%AD%E8%A8%80%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BD%AC%E6%8D%A2</guid>
+    <description><![CDATA[ 我们可以这样说明 C++类需要显式说明某一个变量名称是什么类型的语言我们将其称为静态语言 py类无需显式说明的我们称之为动态语言 在Python中 a = 114 a = &quot;514&quot; b = 1919 b = a 这一系列操作的都是合法的，Python的变量本身并不绑定一个特定的类型，而是 引用 一个值。当我们进行赋值时，变量只是指向内存中一个对象的标签。这个对象可以是任何类型，并且这个标签可以随时被重新指向另一个不同类型的对象。. ]]></description>
+    <pubDate>Sat, 26 Jul 2025 16:00:00 GMT</pubDate>
   </item><item>
     <title>Python同名函数传参</title>
     <link>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/Python%E5%90%8C%E5%90%8D%E5%87%BD%E6%95%B0%E4%BC%A0%E5%8F%82</link>
@@ -21,7 +33,7 @@
     <title>2.Functions</title>
     <link>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/2.Functions</link>
     <guid>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/2.Functions</guid>
-    <description><![CDATA[ 2.1.编程要素 编程语言不仅是一种指挥计算机执行任务的手段，它应该成为一种框架，使我们能够在其中组织我们的有关计算过程的思想。 同时，程序也在编程社区中传递想法，所以，编程语言必须是人类可以阅读的并且恰巧可以被机器执行 表达式 在上一节中我们解释的Python的解释器，下面我们将重新开始，一步步讲解Python语言 我们先从最基本的表达式开始 数字 number &gt;&gt;&gt; 42 42 &gt;&gt;&gt; pi Traceback (most recent call last): File &quot;&lt;python-input-1&gt;&quot;, line ... ]]></description>
+    <description><![CDATA[ 2.1.编程要素 编程语言不仅是一种指挥计算机执行任务的手段，它应该成为一种框架，使我们能够在其中组织我们的有关计算过程的思想。 同时，程序也在编程社区中传递想法，所以，编程语言必须是人类可以阅读的并且恰巧可以被机器执行 2.1.1表达式 在上一节中我们解释的Python的解释器，下面我们将重新开始，一步步讲解Python语言 我们先从最基本的表达式开始 数字 number &gt;&gt;&gt; 42 42 &gt;&gt;&gt; pi Traceback (most recent call last): File &quot;&lt;python-input-1&gt;&quot;, ... ]]></description>
     <pubDate>Fri, 25 Jul 2025 16:00:00 GMT</pubDate>
   </item><item>
     <title>最好的linux发行版——WSL2的使用</title>
@@ -42,12 +54,6 @@
     <description><![CDATA[  在开始前必须明确，本课程在不说明的情况下所有的程序运行均在 manjaro for wsl2 下执行，一些不涉及大型项目的操作与作业程序也均在上述操作系统下进行 1.0.导论 在学习这个课程之前，建议先修课程 程序设计基础 MIT-Missing-Semester (可选) 为了定义计算过程，我们需要一种被人们广泛使用和各类电脑广泛接受的编程语言，在本课程中，我们将主要使用 Python 语言。 因为这一门课程都会使用Python作为编程语言，所以必须好好配置我们的编程环境 我这里选择 Visual Studio Code + wsl2 进行编写代码 由于Linux的原因，我们可以非常轻松的... ]]></description>
     <pubDate>Wed, 23 Jul 2025 16:00:00 GMT</pubDate>
   </item><item>
-    <title>CS61A 计算机程序结构与解释</title>
-    <link>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</link>
-    <guid>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</guid>
-    <description><![CDATA[ CS61系列是伯克利CS专业入门课，其中： CS61A强调抽象，让学生掌握用程序来解决实际问题，而不关注底层的硬件细节。 注意CS61A虽然明面上是Python的语言课程，其中会有很多抽象的思想和程序构造与运行的原理 本课程一共39课时，使用记录式学习而非任务驱动，而具体安排将会被放在 google tasks Lecture1 : Wecome [ ] . ]]></description>
-    <pubDate>Wed, 23 Jul 2025 04:21:07 GMT</pubDate>
-  </item><item>
     <title>kill</title>
     <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/kill</link>
     <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/kill</guid>
@@ -58,12 +64,6 @@
     <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</link>
     <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</guid>
     <description><![CDATA[ sort 命令简介 sort 命令是 Linux/Unix 系统中一个非常实用的工具，主要用于对文本文件的行进行排序。它可以根据不同的规则对文本内容进行升序或降序排列。 基本用法 最简单的用法是直接对文件进行排序并输出到标准输出： sort filename 这会按字母顺序（默认升序）排列 filename 中的每一行。 常用选项 -r (或 --reverse):反向排序（降序）。 sort -r filename -n (或 --numeric-sort): 按数值排序。当行中包含数字时，这个选项会按照数字的大小而不是字母顺序来排序。 sort -n filename -k (或 --ke... ]]></description>
-    <pubDate>Tue, 22 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>命令行环境</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83</guid>
-    <description><![CDATA[ 当我们在学习这一门课程的时候，我们是否发现自己都在一个进程中进行工作，而有的时候我们需要更好的工作，就需要对多个命令和进程之间进行协调 在这一节中我们将学习一些改善我们工作流与体验的操作思想 进程控制 某些情况下我们需要中断正在执行的任务，比如当find在递归搜索一个非常大的目录的时候，大多数情况下，我们都可以使用 Ctrl-c 来停止命令的执行 但是在有的时候，会无法结束进程，这需要我们去深入探讨其底层原理 结束进程 我们的shell在结束一个进程的时候，通常都是发送一个信号来 “通知” 进程结束，这个进程接受到这个信号后会做出一系列反应。就这一点而言，信号是一直 软件中断 在上面的例子中，... ]]></description>
     <pubDate>Tue, 22 Jul 2025 16:00:00 GMT</pubDate>
   </item>
     </channel>
