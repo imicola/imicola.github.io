@@ -123,8 +123,8 @@ pre:hover > .expand-button {
 <li>将一个元素插入单调栈时，为了维护栈的单调性，需要在保证将该元素插入到栈顶后整个栈满足单调性的前提下弹出最少的元素。</li>
 </ul>
 <p><img src="../../attachments/Pasted-image-20250123220024.png" width="auto" height="auto" alt/></p>
-<p>如上：一个 {0,11,45,81}的单调栈，如果要插入元素 14
-<img src="../../attachments/Pasted-image-20250123220101.png" width="auto" height="auto" alt/>
+<p>如上：一个 {0,11,45,81}的单调栈，如果要插入元素 14<br/>
+<img src="../../attachments/Pasted-image-20250123220101.png" width="auto" height="auto" alt/><br/>
 必须将{0,11} 弹出栈，再放入 元素 14</p>
 <figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="cpp" data-theme="github-light github-dark"><code data-language="cpp" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">insert x;</span></span>
 <span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">while</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">!</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">sta.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">empty</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">() </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">&amp;&amp;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> sta.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">top</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">() </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">&lt;=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> x) {</span></span>

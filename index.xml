@@ -10,7 +10,19 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 12 Aug 2025 08:23:46 GMT</pubDate>
+    <pubDate>Sat, 30 Aug 2025 16:31:15 GMT</pubDate>
+  </item><item>
+    <title>DP问题全记录</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</guid>
+    <description><![CDATA[ Q1 CF2135A 我们定义一个块(block)为其中所有元素都等于数组长度的数组。例如，[3,3,3]、[1] 和 [4,4,4,4] 都是块，而 [1,1,1] 和 [2,3,3] 则不是。 若一个数组可以通过任意数量(可能为零)的块连接而成，则称其为整洁数组(neat array)。注意空数组总是整洁的。 给定一个由 n 个整数组成的数组 a，请找出其最长的整洁子序列∗的长度。 ∗序列 c 是序列 a 的子序列，当且仅当 c 可以通过从 a 的任意位置删除若干个(可能为零或全部)元素得到。 Ac代码 void solve() { int n; cin &gt;&gt; n; vint ... ]]></description>
+    <pubDate>Sat, 30 Aug 2025 09:18:45 GMT</pubDate>
+  </item><item>
+    <title>Python同名函数传参</title>
+    <link>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/Python%E5%90%8C%E5%90%8D%E5%87%BD%E6%95%B0%E4%BC%A0%E5%8F%82</link>
+    <guid>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/Python%E5%90%8C%E5%90%8D%E5%87%BD%E6%95%B0%E4%BC%A0%E5%8F%82</guid>
+    <description><![CDATA[ 在Python中没有像C++那样直接的函数重载(Function Overloading), C++ 允许你定义多个同名函数，只要它们的参数列表(参数类型、参数数量或参数顺序)不同即可。 编译器会根据传入的参数类型自动选择正确的函数版本。 Python 采取了一种不同的方式来处理类似的需求： 1.默认参数 在 Python 中你可以给函数的参数设置默认值，这样在调用函数时就可以选择性地省略这些参数 def pow(base, exp , mod = None): &quot;&quot;&quot; 计算模下的base的exp次幂,如果mod不为None,则计算模mod的结果。 &quot;&... ]]></description>
+    <pubDate>Tue, 12 Aug 2025 14:17:32 GMT</pubDate>
   </item><item>
     <title>CS61A 计算机程序结构与解释</title>
     <link>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</link>
@@ -23,12 +35,6 @@
     <guid>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/%E8%AF%AD%E8%A8%80%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BD%AC%E6%8D%A2</guid>
     <description><![CDATA[ 我们可以这样说明 C++类需要显式说明某一个变量名称是什么类型的语言我们将其称为静态语言 py类无需显式说明的我们称之为动态语言 在Python中 a = 114 a = &quot;514&quot; b = 1919 b = a 这一系列操作的都是合法的，Python的变量本身并不绑定一个特定的类型，而是 引用 一个值。当我们进行赋值时，变量只是指向内存中一个对象的标签。这个对象可以是任何类型，并且这个标签可以随时被重新指向另一个不同类型的对象。. ]]></description>
     <pubDate>Sat, 26 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Python同名函数传参</title>
-    <link>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/Python%E5%90%8C%E5%90%8D%E5%87%BD%E6%95%B0%E4%BC%A0%E5%8F%82</link>
-    <guid>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/Python%E5%90%8C%E5%90%8D%E5%87%BD%E6%95%B0%E4%BC%A0%E5%8F%82</guid>
-    <description><![CDATA[ 在Python中没有像C++那样直接的函数重载(Function Overloading), C++ 允许你定义多个同名函数，只要它们的参数列表(参数类型、参数数量或参数顺序)不同即可。 编译器会根据传入的参数类型自动选择正确的函数版本。 Python 采取了一种不同的方式来处理类似的需求： 1.默认参数 在 Python 中你可以给函数的参数设置默认值，这样在调用函数时就可以选择性地省略这些参数 def pow(base, exp , mod = None): &quot;&quot;&quot; 计算模下的base的exp次幂,如果mod不为None,则计算模mod的结果。 &quot;&... ]]></description>
-    <pubDate>Sat, 26 Jul 2025 07:29:41 GMT</pubDate>
   </item><item>
     <title>2.Functions</title>
     <link>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/2.Functions</link>
@@ -58,12 +64,6 @@
     <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/kill</link>
     <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/kill</guid>
     <description><![CDATA[ Linux的 kill 命令用于向进程发送指定信号以终止或控制进程。 默认情况下，它发送SIGTERM通知进程优雅退出，允许程序执行清理操作。 若进程无响应，可使用-9参数发送SIGKILL强制终止（如kill -9 PID）。 需通过ps、pgrep等命令获取目标进程的PID（进程ID）。常用参数包括：-l列出所有信号，-p指定进程组等。 注意：强制终止可能导致数据丢失，操作前需谨慎确认PID；部分情况需管理员权限（如终止系统进程）。例如：killall nginx可终止所有nginx进程。 . ]]></description>
-    <pubDate>Tue, 22 Jul 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>sort</title>
-    <link>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</link>
-    <guid>https://imicola.github.io/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</guid>
-    <description><![CDATA[ sort 命令简介 sort 命令是 Linux/Unix 系统中一个非常实用的工具，主要用于对文本文件的行进行排序。它可以根据不同的规则对文本内容进行升序或降序排列。 基本用法 最简单的用法是直接对文件进行排序并输出到标准输出： sort filename 这会按字母顺序（默认升序）排列 filename 中的每一行。 常用选项 -r (或 --reverse):反向排序（降序）。 sort -r filename -n (或 --numeric-sort): 按数值排序。当行中包含数字时，这个选项会按照数字的大小而不是字母顺序来排序。 sort -n filename -k (或 --ke... ]]></description>
     <pubDate>Tue, 22 Jul 2025 16:00:00 GMT</pubDate>
   </item>
     </channel>
