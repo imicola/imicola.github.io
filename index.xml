@@ -10,61 +10,61 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 03 Sep 2025 15:57:14 GMT</pubDate>
+    <pubDate>Thu, 04 Sep 2025 16:34:23 GMT</pubDate>
   </item><item>
     <title>快速组合数</title>
     <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E5%BF%AB%E9%80%9F%E7%BB%84%E5%90%88%E6%95%B0</link>
     <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E5%BF%AB%E9%80%9F%E7%BB%84%E5%90%88%E6%95%B0</guid>
-    <description><![CDATA[ 通过预处理阶乘 + 逆元的方式快速计算\begin{pmatrix}n \\ k\end{pmatrix},在计算大组合数时候采用,在数字大于模数时候采用 Lucas 定理 ksm板子需自己补全 struct Comb { vector&lt;i64&gt; fac, inv_fac; i64 MAX_N; Comb(i64 MAXK) { MAX_N = MAXK; fac.resize(MAX_N); inv_fac.resize(MAX_N); init(); } // 预处理 [0, MOD-1] 阶乘及逆元 void init() { fac[0] = 1; for (i64 i =... ]]></description>
-    <pubDate>Wed, 03 Sep 2025 14:46:32 GMT</pubDate>
+    <description><![CDATA[ 通过预处理阶乘 + 逆元的方式快速计算\begin{pmatrix}n \\ k\end{pmatrix},在计算大组合数时候采用,在数字大于模数时候采用 Lucas 定理 Lucas 定理 对于质数p有组合数公式 C(n,k) = \frac{n!}{k!(n-k)!} \pmod p 当n &lt; p 时候可以直接使用阶乘求: C(n,k) = fac[n]\cdot inv\_fac[k]\cdot inv\_{[n-k]} \bmod p 当n \geq p时候,Lucas定理告诉我们: C(n,k) \bmod p = C\left(\left\lfloor \frac{n}{p}... ]]></description>
+    <pubDate>Thu, 04 Sep 2025 16:33:51 GMT</pubDate>
   </item><item>
-    <title>未命名</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 03 Sep 2025 01:17:01 GMT</pubDate>
-  </item><item>
-    <title>斯特林数,欧拉数</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E6%96%AF%E7%89%B9%E6%9E%97%E6%95%B0,%E6%AC%A7%E6%8B%89%E6%95%B0</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E6%96%AF%E7%89%B9%E6%9E%97%E6%95%B0,%E6%AC%A7%E6%8B%89%E6%95%B0</guid>
-    <description><![CDATA[ 第一类斯科特数 第一类斯科特数 c(n,k) 表示 将n个不同元素排列成恰好k个”循环”的排列数 对于循环,我们可以理解为\{1,2,3\}与\{2,3,1\} 与\{3,2,1\}均为一类循环,因为将这些数无限写下去的形式上是一致的 \{\cdots,\textcolor{blue}{1,2,3},1,\textcolor{red}{2,3,1},2,\textcolor{green}{3,1,2},\cdots\} 例子: c(3,1) = 2,即所有3!排列都在一个大循环中,此时有两种方案{(1,2,3),(1,3,2)} c(3,2) = 3,此时有 (1)(2,3) | (2)(1,... ]]></description>
-    <pubDate>Tue, 02 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>0.概率论</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/0.%E6%A6%82%E7%8E%87%E8%AE%BA</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/0.%E6%A6%82%E7%8E%87%E8%AE%BA</guid>
-    <description><![CDATA[ 概率论入门 Tip 现在给出概率论数学符号约定,我们使用P(A)表示事件A的概率,使用集合运算符号\cap,\cup表示事件的关系 . ]]></description>
-    <pubDate>Tue, 02 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>1.随机事件和样本空间 and 频率与概率</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/1.%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E5%92%8C%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4-and-%E9%A2%91%E7%8E%87%E4%B8%8E%E6%A6%82%E7%8E%87</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/1.%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E5%92%8C%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4-and-%E9%A2%91%E7%8E%87%E4%B8%8E%E6%A6%82%E7%8E%87</guid>
-    <description><![CDATA[ 1.1 概念 我们研究随机事件的方式是 随机试验 ,随机试验应该满足以下三个条件 大量可重复性 结果不唯一 不可预知性 我们约定用E表示随机试验,将随机试验所有可能的结果构成构成的集合称为样本空间U,例如抛一次硬币的试验E_{1}的样本空间U = \{H,T\} 记为正反 一些概念解释: 随机事件:即样本空间的子集 基本事件:单个样本点构成的事件 事件发生: 事件A发生 \iff A中有样本点出现 1.2事件的运算 事件的关系: 包含 : A \subset B 即事件A发生必然导致事件B发生 和事件 : A \cup B = \{x | x \in A \text{ or } x \in B... ]]></description>
-    <pubDate>Tue, 02 Sep 2025 16:00:00 GMT</pubDate>
+    <title>DP问题全记录</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</guid>
+    <description><![CDATA[ Q1 CF2135A 我们定义一个块(block)为其中所有元素都等于数组长度的数组。例如，[3,3,3]、[1] 和 [4,4,4,4] 都是块，而 [1,1,1] 和 [2,3,3] 则不是。 若一个数组可以通过任意数量(可能为零)的块连接而成，则称其为整洁数组(neat array)。注意空数组总是整洁的。 给定一个由 n 个整数组成的数组 a，请找出其最长的整洁子序列∗的长度。 ∗序列 c 是序列 a 的子序列，当且仅当 c 可以通过从 a 的任意位置删除若干个(可能为零或全部)元素得到。 Ac代码 void solve() { int n; cin &gt;&gt; n; vint ... ]]></description>
+    <pubDate>Thu, 04 Sep 2025 16:33:51 GMT</pubDate>
   </item><item>
     <title>C++模板</title>
     <link>https://imicola.github.io/ACM/%E5%A5%87%E5%A6%99C++%E7%94%A8%E6%B3%95/C++%E6%A8%A1%E6%9D%BF</link>
     <guid>https://imicola.github.io/ACM/%E5%A5%87%E5%A6%99C++%E7%94%A8%E6%B3%95/C++%E6%A8%A1%E6%9D%BF</guid>
-    <description><![CDATA[ C++模板是一个强大的通用性工具. ]]></description>
-    <pubDate>Tue, 02 Sep 2025 07:31:46 GMT</pubDate>
+    <description><![CDATA[ C++模板是一个强大的通用性工具,其用法为template &lt;typename T&gt; 这个语法允许我们传入非固定的类型并且根据这个类型进行程序编写 C++模板分为两种模板: 函数模板 和 类模板 函数模板 你定义一个通用的函数，其中一个或多个参数的类型是泛型（用一个占位符表示），而不是固定的类型，例如int或double。当你在代码中调用这个函数时，编译器会根据你传入的参数类型自动推断并实例化（instantiate）出一个具体的函数版本。 template&lt;typename T&gt; void swapT(T &amp;a, T &amp;b){ T temp; temp... ]]></description>
+    <pubDate>Thu, 04 Sep 2025 16:33:51 GMT</pubDate>
   </item><item>
-    <title>未命名</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 02 Sep 2025 00:28:08 GMT</pubDate>
+    <title>2.计算机的发展及应用</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</guid>
+    <description><![CDATA[  这一节的内容不是很重要,我们选择跳过 . ]]></description>
+    <pubDate>Thu, 04 Sep 2025 08:43:44 GMT</pubDate>
   </item><item>
-    <title>0.数据结构介绍与入门</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/0.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%85%A5%E9%97%A8</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/0.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%85%A5%E9%97%A8</guid>
-    <description><![CDATA[ 课程考核 对于课程考核,本课程按照下面划分 方式分数平时表现20%作业20%实验10%期末考试50% 绪论 数据结构研究什么? 非数值计算问题的操作对象 对象之间的关系 在计算机中的表示和实现 数据结构的用法 通过预先分析问题来确定必须达到的 性能目标 挑选出恰当的数据结构 基本概念与术语 数据结构: 定义: 由某一数据结构的集合及该集合所有数据元素之间的关系构成 数据结构的逻辑结构: 数据的逻辑结构从逻辑关系上描述数据,只指向数据之间的逻辑关系 可以看作是从具体问题中抽象出来的数学模型 其可以分为: 线性结构,树状结构,图 数据的存储结构 从底层上而言,其储存结构可以分为顺序存储结构与链式存... ]]></description>
-    <pubDate>Mon, 01 Sep 2025 16:00:00 GMT</pubDate>
+    <title>ST表</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/ST%E8%A1%A8</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/ST%E8%A1%A8</guid>
+    <description><![CDATA[ ST表,又称稀疏表,通过采取预处理的方案储存不同长度的区间答案,从而在查询时候非常高效 ST表一般用于解决区间最值,可重复贡献的问题 使用ST表需要注意以下问题: 静态区间查询 运算必须满足 结合律 和 幂等律 常见匀速有: 区间最大最小值 区间GCD 区间按位与,按位或 基本思路 ST表的基本思路是 倍增法 假设我们有一个长度为n的数组a[0…n-1],我们预处理一个二维数组 st[i][j] st[i][j]表示从 i 开始,长度为 2^j 的区间答案 预处理 初始化 st[i][0] = a[i] 状态转移: st[i][j] = f(s[i][j - 1],st[i+2^{j-1}][... ]]></description>
+    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
   </item><item>
-    <title>0.前言</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/0.%E5%89%8D%E8%A8%80</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/0.%E5%89%8D%E8%A8%80</guid>
-    <description><![CDATA[ 课程基本内容 计算机主要原理主要是学习计算机各个内容之间的组织结构,功能,以及其互联的计算机系统 成绩组成: 10%平时作业 + 10%大作业 10%实验 10%学习表现 60%期末考试 3.5学分 . ]]></description>
-    <pubDate>Mon, 01 Sep 2025 16:00:00 GMT</pubDate>
+    <title>快读与快写</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E5%BF%AB%E8%AF%BB%E4%B8%8E%E5%BF%AB%E5%86%99</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E5%BF%AB%E8%AF%BB%E4%B8%8E%E5%BF%AB%E5%86%99</guid>
+    <description><![CDATA[  在某些极端卡常情况下,IO瓶颈也可能成为限制时间的因素之一,而且输入的性能损耗尤其严重,所以我们需要一套快速读写来尽可能提高输入输出速度 对于快读,有 static inline int read() { int x=0,f=1;char ch=getchar(); while (ch&lt;&#039;0&#039;||ch&gt;&#039;9&#039;){if (ch==&#039;-&#039;) f=-1;ch=getchar();} while (ch&gt;=&#039;0&#039;&amp;&amp;ch&lt;=&#039;9&#039;){x=x*10+ch-48;c... ]]></description>
+    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>分块</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E5%88%86%E5%9D%97</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E5%88%86%E5%9D%97</guid>
+    <description><![CDATA[ 我们在这里主要聊的是 整除分块 ,这是求解形如 \sum\limits^{n}_{i=1} f\left(\left\lfloor \frac{n}{i} \right\rfloor\right) 这类涉及到 整除 或 取整 的求和问题,其核心思想是:对于固定的n,\left\lfloor \frac{n}{i} \right\rfloor的值在一定区间内是相同的,我们可以将这些 i 连续区间优化为一次处理 对一个固定的 n ,我们考虑其表达式 k = \left\lfloor \frac{n}{i} \right\rfloor 当i增大时, \dfrac{n}{i} 单调递减,故k是单调不增... ]]></description>
+    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>约数</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E7%BA%A6%E6%95%B0</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E7%BA%A6%E6%95%B0</guid>
+    <description><![CDATA[ 我们记 d(i) 为 数 i 的约数个数,存在等式 \sum\limits^{n}_{i = 1}d(i) = \sum\limits^{n}_{i = 1}\left\lfloor \frac{n}{i} \right\rfloor 这个等式的证明如下 记二重计数集合 S = \{(a,b) \in \mathbb{Z}{}^{2}_{\geq1}: ab \leq n\} 含义为两个大于1的正整数a,b其乘积小于等于n我们需要得知的即为|S| 按积分组角度 对于每一个i \in [1,n],将所有满足 ab = i的有序对计入S,这个有序对个数正好就是d(i),将i = 1到n累加有: |... ]]></description>
+    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>2.关系模型的介绍</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/2.%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BB%8B%E7%BB%8D</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/2.%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BB%8B%E7%BB%8D</guid>
+    <description><![CDATA[ 关系数据库的结构 对于单一的数据结构,我们称其为关系,显然在现实世界中实体与实体之间的各种联系表示 数据的逻辑结构,我们可以用二维表来描述 数据库模式 属性: A_1,A_{2}\cdots A_n 关系模型: R = \{A_1,A_{2}\cdots A_n\} 关系模式表现了型的概念,其表示的表的框架; 关系则表现为值的概念,成为了关系实例 一个关系模式下可以建立多个关系,例如在学生关系的关系模式下,可以为全校学生都建立关系表 码. ]]></description>
+    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
