@@ -10,7 +10,43 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 04 Sep 2025 16:34:23 GMT</pubDate>
+    <pubDate>Sat, 13 Sep 2025 16:56:15 GMT</pubDate>
+  </item><item>
+    <title>3.SQL语言</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/3.SQL%E8%AF%AD%E8%A8%80</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/3.SQL%E8%AF%AD%E8%A8%80</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 10 Sep 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>4.数据的表示</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/4.%E6%95%B0%E6%8D%AE%E7%9A%84%E8%A1%A8%E7%A4%BA</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/4.%E6%95%B0%E6%8D%AE%E7%9A%84%E8%A1%A8%E7%A4%BA</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 10 Sep 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>未命名</title>
+    <link>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
+    <guid>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 10 Sep 2025 13:51:31 GMT</pubDate>
+  </item><item>
+    <title>4.事件的独立性</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/4.%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%80%A7</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/4.%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%80%A7</guid>
+    <description><![CDATA[  定义: 若P(AB) = P(A)P(B)则称AB 相互独立 Tip 若{A,B},{\overline{A}B},{A\overline{B}},{\overline{A}\ \overline{B}}中有一组互相独立,则其余三组都互相独立 若P(A) = 1 \text{ or } 0 ,则对任意B,AB独立 若P(A) &gt; 0 \text{ and }P(B) &gt; 0,则AB互不相容与AB独立不能同时出现 三事件互相独立 若ABC两两独立且P(ABC) = P(A)P(B)P(C) ,则称ABC相互独立 性质 若AB独立,则P(A) = P(A|B) . ]]></description>
+    <pubDate>Wed, 10 Sep 2025 01:46:42 GMT</pubDate>
+  </item><item>
+    <title>systemd问题</title>
+    <link>https://imicola.github.io/%E6%9D%82%E9%A1%B9/systemd%E9%97%AE%E9%A2%98</link>
+    <guid>https://imicola.github.io/%E6%9D%82%E9%A1%B9/systemd%E9%97%AE%E9%A2%98</guid>
+    <description><![CDATA[ 今天在使用 manjaro for wsl 时候本来为了安装数据库系统的数据库管理软件在wsl里,显然对于这种数据库管理软件而言是依靠 serve 服务来运行的,这种运行依靠一个名字叫做 systemd 的服务管理器进行的.其 PID=1 今天尝试使用 PostgreSQL 时候,在启动服务应该输入 sudo systemctl start postgersql 时候报出: System has not been booted with systemd as init system (PID 1). ]]></description>
+    <pubDate>Mon, 08 Sep 2025 12:20:27 GMT</pubDate>
+  </item><item>
+    <title>CS61A 计算机程序结构与解释</title>
+    <link>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</link>
+    <guid>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</guid>
+    <description><![CDATA[ CS61系列是伯克利CS专业入门课，其中： CS61A强调抽象，让学生掌握用程序来解决实际问题，而不关注底层的硬件细节。 注意CS61A虽然明面上是Python的语言课程，其中会有很多抽象的思想和程序构造与运行的原理 本课程一共39课时，使用记录式学习而非任务驱动，而具体安排将会被放在 google tasks Lecture1 : Wecome [7.24 → 7.26] Lecture2 : Functions [7.26 → ?](中间爽玩了三天) Lecture3 : . ]]></description>
+    <pubDate>Mon, 08 Sep 2025 03:19:03 GMT</pubDate>
   </item><item>
     <title>快速组合数</title>
     <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E5%BF%AB%E9%80%9F%E7%BB%84%E5%90%88%E6%95%B0</link>
@@ -29,42 +65,6 @@
     <guid>https://imicola.github.io/ACM/%E5%A5%87%E5%A6%99C++%E7%94%A8%E6%B3%95/C++%E6%A8%A1%E6%9D%BF</guid>
     <description><![CDATA[ C++模板是一个强大的通用性工具,其用法为template &lt;typename T&gt; 这个语法允许我们传入非固定的类型并且根据这个类型进行程序编写 C++模板分为两种模板: 函数模板 和 类模板 函数模板 你定义一个通用的函数，其中一个或多个参数的类型是泛型（用一个占位符表示），而不是固定的类型，例如int或double。当你在代码中调用这个函数时，编译器会根据你传入的参数类型自动推断并实例化（instantiate）出一个具体的函数版本。 template&lt;typename T&gt; void swapT(T &amp;a, T &amp;b){ T temp; temp... ]]></description>
     <pubDate>Thu, 04 Sep 2025 16:33:51 GMT</pubDate>
-  </item><item>
-    <title>2.计算机的发展及应用</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</guid>
-    <description><![CDATA[  这一节的内容不是很重要,我们选择跳过 . ]]></description>
-    <pubDate>Thu, 04 Sep 2025 08:43:44 GMT</pubDate>
-  </item><item>
-    <title>ST表</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/ST%E8%A1%A8</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/ST%E8%A1%A8</guid>
-    <description><![CDATA[ ST表,又称稀疏表,通过采取预处理的方案储存不同长度的区间答案,从而在查询时候非常高效 ST表一般用于解决区间最值,可重复贡献的问题 使用ST表需要注意以下问题: 静态区间查询 运算必须满足 结合律 和 幂等律 常见匀速有: 区间最大最小值 区间GCD 区间按位与,按位或 基本思路 ST表的基本思路是 倍增法 假设我们有一个长度为n的数组a[0…n-1],我们预处理一个二维数组 st[i][j] st[i][j]表示从 i 开始,长度为 2^j 的区间答案 预处理 初始化 st[i][0] = a[i] 状态转移: st[i][j] = f(s[i][j - 1],st[i+2^{j-1}][... ]]></description>
-    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>快读与快写</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E5%BF%AB%E8%AF%BB%E4%B8%8E%E5%BF%AB%E5%86%99</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E5%BF%AB%E8%AF%BB%E4%B8%8E%E5%BF%AB%E5%86%99</guid>
-    <description><![CDATA[  在某些极端卡常情况下,IO瓶颈也可能成为限制时间的因素之一,而且输入的性能损耗尤其严重,所以我们需要一套快速读写来尽可能提高输入输出速度 对于快读,有 static inline int read() { int x=0,f=1;char ch=getchar(); while (ch&lt;&#039;0&#039;||ch&gt;&#039;9&#039;){if (ch==&#039;-&#039;) f=-1;ch=getchar();} while (ch&gt;=&#039;0&#039;&amp;&amp;ch&lt;=&#039;9&#039;){x=x*10+ch-48;c... ]]></description>
-    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>分块</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E5%88%86%E5%9D%97</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E5%88%86%E5%9D%97</guid>
-    <description><![CDATA[ 我们在这里主要聊的是 整除分块 ,这是求解形如 \sum\limits^{n}_{i=1} f\left(\left\lfloor \frac{n}{i} \right\rfloor\right) 这类涉及到 整除 或 取整 的求和问题,其核心思想是:对于固定的n,\left\lfloor \frac{n}{i} \right\rfloor的值在一定区间内是相同的,我们可以将这些 i 连续区间优化为一次处理 对一个固定的 n ,我们考虑其表达式 k = \left\lfloor \frac{n}{i} \right\rfloor 当i增大时, \dfrac{n}{i} 单调递减,故k是单调不增... ]]></description>
-    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>约数</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E7%BA%A6%E6%95%B0</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E7%BA%A6%E6%95%B0</guid>
-    <description><![CDATA[ 我们记 d(i) 为 数 i 的约数个数,存在等式 \sum\limits^{n}_{i = 1}d(i) = \sum\limits^{n}_{i = 1}\left\lfloor \frac{n}{i} \right\rfloor 这个等式的证明如下 记二重计数集合 S = \{(a,b) \in \mathbb{Z}{}^{2}_{\geq1}: ab \leq n\} 含义为两个大于1的正整数a,b其乘积小于等于n我们需要得知的即为|S| 按积分组角度 对于每一个i \in [1,n],将所有满足 ab = i的有序对计入S,这个有序对个数正好就是d(i),将i = 1到n累加有: |... ]]></description>
-    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>2.关系模型的介绍</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/2.%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BB%8B%E7%BB%8D</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/2.%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BB%8B%E7%BB%8D</guid>
-    <description><![CDATA[ 关系数据库的结构 对于单一的数据结构,我们称其为关系,显然在现实世界中实体与实体之间的各种联系表示 数据的逻辑结构,我们可以用二维表来描述 数据库模式 属性: A_1,A_{2}\cdots A_n 关系模型: R = \{A_1,A_{2}\cdots A_n\} 关系模式表现了型的概念,其表示的表的框架; 关系则表现为值的概念,成为了关系实例 一个关系模式下可以建立多个关系,例如在学生关系的关系模式下,可以为全校学生都建立关系表 码. ]]></description>
-    <pubDate>Wed, 03 Sep 2025 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
