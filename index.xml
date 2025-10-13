@@ -10,61 +10,61 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 30 Sep 2025 08:59:21 GMT</pubDate>
+    <pubDate>Mon, 13 Oct 2025 13:45:16 GMT</pubDate>
+  </item><item>
+    <title>未命名</title>
+    <link>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
+    <guid>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
+    <description><![CDATA[ \begin{bmatrix} T(e_{1}) &amp;T(e_{2)}&amp;\cdots T(e_{n}) \end{bmatrix} \begin{bmatrix}x_{1} \\ x_{2} \\ \cdots \\ x_{n}\end{bmatrix}. ]]></description>
+    <pubDate>Sun, 12 Oct 2025 09:37:26 GMT</pubDate>
+  </item><item>
+    <title>DP问题全记录</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</guid>
+    <description><![CDATA[ Q1 CF2135A 我们定义一个块(block)为其中所有元素都等于数组长度的数组。例如，[3,3,3]、[1] 和 [4,4,4,4] 都是块，而 [1,1,1] 和 [2,3,3] 则不是。 若一个数组可以通过任意数量(可能为零)的块连接而成，则称其为整洁数组(neat array)。注意空数组总是整洁的。 给定一个由 n 个整数组成的数组 a，请找出其最长的整洁子序列∗的长度。 ∗序列 c 是序列 a 的子序列，当且仅当 c 可以通过从 a 的任意位置删除若干个(可能为零或全部)元素得到。 Ac代码 void solve() { int n; cin &gt;&gt; n; vint ... ]]></description>
+    <pubDate>Sun, 12 Oct 2025 06:53:24 GMT</pubDate>
   </item><item>
     <title>题解I</title>
     <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</link>
     <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</guid>
     <description><![CDATA[ Problem - 2144D - Codeforces Background 给定一个数组A和两个整数k,x其中x &gt; 1你需要求出\sum\limits_{i=1}^{n-1} \left\lceil \frac{a_{i}}{x} \right\rceil,同时k表示a_{i}变为\left\lceil \frac{a_{i}}{x} \right\rceil后需要的代价,但是如果原本的数组中存在元素 \left\lceil \frac{a_{i}}{x} \right\rceil 就不用付出代价,你的任务是最大化 \sum\limits_{i=1}^{n-1} \left\lce... ]]></description>
-    <pubDate>Sat, 27 Sep 2025 14:43:05 GMT</pubDate>
+    <pubDate>Sun, 12 Oct 2025 06:52:19 GMT</pubDate>
+  </item><item>
+    <title>支持动态修改的线段树</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E7%BA%BF%E6%AE%B5%E6%A0%91Seg/%E6%94%AF%E6%8C%81%E5%8A%A8%E6%80%81%E4%BF%AE%E6%94%B9%E7%9A%84%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E7%BA%BF%E6%AE%B5%E6%A0%91Seg/%E6%94%AF%E6%8C%81%E5%8A%A8%E6%80%81%E4%BF%AE%E6%94%B9%E7%9A%84%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
+    <description><![CDATA[ 动态修改 作为一颗线段树，如果它只能查询而不能修改，就很容易被上位替代，而支持在O(\log n) 下进行区间修改和区间查询，则是线段树最大的优势 要实现区间修改，我们需要引入 lazy propagation即懒标记 懒标记的作用我们用如下例子表示： 假设我们需要对区间 [2,5] 的元素都+10，且当前节点[1,8] 覆盖了 [2,5] 我们可以： 不立即递归更新子节点 在当前节点打上懒标记 记录这个区间整体应该要+10 只有当 下次访问到这个区间的子节点的时，才下传这个标记 变化 和支持区间查询的线段树的线段树相比，我们的结构体的存储信息应该多加上懒标记的信息 同时我们需要多加一些函数来... ]]></description>
+    <pubDate>Thu, 09 Oct 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>国庆赛1</title>
+    <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E5%9B%BD%E5%BA%86%E8%B5%9B1</link>
+    <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E5%9B%BD%E5%BA%86%E8%B5%9B1</guid>
+    <description><![CDATA[ by imicola 预期难度: easy:A , B , C , D easy-mid: E, F ,K mid: H , G , J hard: I ,L F 思维,Nim博弈 这题其实严格证明很神秘,但是我们可以猜出当n \bmod (k + 1) = 0的情况时候,A无法构成一个必定胜利的情况,这可以从n=k+1的情况下手然后猜测并验证n = 2(k+1) 对于证明: 因为牌1的数量特别多,所以这题其实退化为经典的取石头问题 : 两个人轮流取n个石头,每次最少取1个最多取k个,问谁可以最先将石头取完 在这个情景下,后手获胜的情况有且仅有n \bmod (k + 1) = 0 AC so... ]]></description>
+    <pubDate>Thu, 09 Oct 2025 02:13:22 GMT</pubDate>
+  </item><item>
+    <title>未命名</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 09 Oct 2025 00:22:44 GMT</pubDate>
+  </item><item>
+    <title>语句表达式</title>
+    <link>https://imicola.github.io/ACM/%E5%A5%87%E5%A6%99C++%E7%94%A8%E6%B3%95/%E8%AF%AD%E5%8F%A5%E8%A1%A8%E8%BE%BE%E5%BC%8F</link>
+    <guid>https://imicola.github.io/ACM/%E5%A5%87%E5%A6%99C++%E7%94%A8%E6%B3%95/%E8%AF%AD%E5%8F%A5%E8%A1%A8%E8%BE%BE%E5%BC%8F</guid>
+    <description><![CDATA[ 我们注意一段神奇代码 auto a = ({ int p = 10, q = 20; p + q; }); 这其实是GUN扩展下的cpp语句扩展表达式 其等价于: auto a = []{ int p = 10,q = 20; return p + q; }(); 可以在我们想要快速初始化的时候可以使用. ]]></description>
+    <pubDate>Wed, 08 Oct 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>支持区间查询的线段树</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E7%BA%BF%E6%AE%B5%E6%A0%91Seg/%E6%94%AF%E6%8C%81%E5%8C%BA%E9%97%B4%E6%9F%A5%E8%AF%A2%E7%9A%84%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E7%BA%BF%E6%AE%B5%E6%A0%91Seg/%E6%94%AF%E6%8C%81%E5%8C%BA%E9%97%B4%E6%9F%A5%E8%AF%A2%E7%9A%84%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
+    <description><![CDATA[ 引子：线段树是什么 不知道你有没有被某些算法题搞得焦头烂额，例如给你Q次询问求区间和，区间最大最小，区间子段和这些神秘题目，但是现在，他们都将变成板子题！ 线段树是一种二叉树结构,其实作用是可以快速修改和查询,我们先从支持查询的线段数开始 线段树思想 线段树通过将一段区间不断二分，直到分解成单个节点的元素，然后通过合并子区间的信息从而得到父区间的结果，将区间问题变成 分治合并问题 实现 一颗完整的静态线段树需要进行 建树 合并 查询 这些操作 维护信息 根据题目的意义，我们的节点可能维护的信息是不一样的 区间和(sum) 区间最值(max / min) 区间最大子段和 (sum,lmax,rm... ]]></description>
+    <pubDate>Wed, 08 Oct 2025 16:00:00 GMT</pubDate>
   </item><item>
     <title>7.二维随机变量</title>
     <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/7.%E4%BA%8C%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</link>
     <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/7.%E4%BA%8C%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</guid>
     <description><![CDATA[ 二维随机变量 对一个随机事件 E,U = \{e\}\quad \forall e \in U,X(e),Y(e) \in \mathbb{R} [!二维随机变量的分布函数] (X,Y)\quad \forall x,y \in \mathbb{R} 有 F(x,y) = P\{(X \leq x) \cap (Y \leq y)\} 我们不难看出，这个函数是在点(x,y)左下角的面积区域 性质 固定某一个变量时候，F(x,y)是单调不减的 0 \leq F(x,y) \leq 1 \lim_{x,y\to+\infty}F(x,y) = 1 F(-\infty,-\infty) = F(-\... ]]></description>
     <pubDate>Thu, 25 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>6.连续型随机变量</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/6.%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/6.%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</guid>
-    <description><![CDATA[ 定义与概率密度 对于随机变量X,若存在非负可积函数 f(x),\, x\in \mathbb{R} 对于任意a,b \in \mathbb{R},(a &lt; b),\Longrightarrow P(a &lt; X \leq b) = \int_{a}^{b}f(x)\mathrm{d}x 称X为连续型变量， f(x) 称为X的概率密度函数，求在区间L,R 的概率就是求这个区间的积分 性质： f(x) \geq 0 \int^{\infty}_{\infty}f(x) = 1 分布函数 定义2： 随机变量X(离散型，连续型)，x \in \mathbb{R} 称F(x) = P\{X \... ]]></description>
-    <pubDate>Wed, 24 Sep 2025 01:30:09 GMT</pubDate>
-  </item><item>
-    <title>2.栈和队列</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 23 Sep 2025 09:00:07 GMT</pubDate>
-  </item><item>
-    <title>SSH</title>
-    <link>https://imicola.github.io/%E6%9D%82%E9%A1%B9/SSH</link>
-    <guid>https://imicola.github.io/%E6%9D%82%E9%A1%B9/SSH</guid>
-    <description><![CDATA[ ssh是一个命令行远程软件，可以非常方便的将一个设备上的命令行几乎无损的 “移植” 到另外一个设备上，对于ssh而言，我们可以做到两个电脑之间的链接，甚至是电脑到平板上的链接 ssh的链接有点类似于远程桌面，但是只会链接命令行和文件，所以对网络要求极低，遇到不稳定的场景也可以稳定链接 ssh在win上和linux上均有版本，因为笔者工具链都在wsl上，所以本文以linux(wsl)上的配置来讲述，同时也会演示用vscode来链接ssh 演示的设备为：arch for wsl Windows 11 23H2 首先对于一般linux发行版而言，都会内置ssh sever,当然也可以手动下载 sud... ]]></description>
-    <pubDate>Mon, 22 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Codeforces Global Round 29(1+2)</title>
-    <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/Codeforces/Codeforces-Global-Round-29(1+2)</link>
-    <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/Codeforces/Codeforces-Global-Round-29(1+2)</guid>
-    <description><![CDATA[ A 注意到我们先走的一步必须小于后走的一步 当 x &lt; y时候一步x一步y即可 当y = 1 时候无论如何走都无法走到 当x &gt; y 时候，必须满足x - 1 &gt; y因为第一步走1,然后走向上走y，最后走到(x,y),即三步 Ac solution void solve() { i64 x, y; cin &gt;&gt; x &gt;&gt; y; if (x &lt; y) { cout &lt;&lt; 2 &lt;&lt; endl; return; } if (x - 1 &gt; y &amp;&amp; y != 1) { cout &lt;&lt; 3 &lt... ]]></description>
-    <pubDate>Sun, 21 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>2.CREATE</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/SQL/2.CREATE</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/SQL/2.CREATE</guid>
-    <description><![CDATA[ 在SQL中创建表格. ]]></description>
-    <pubDate>Sun, 21 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>DP问题全记录</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</guid>
-    <description><![CDATA[ Q1 CF2135A 我们定义一个块(block)为其中所有元素都等于数组长度的数组。例如，[3,3,3]、[1] 和 [4,4,4,4] 都是块，而 [1,1,1] 和 [2,3,3] 则不是。 若一个数组可以通过任意数量(可能为零)的块连接而成，则称其为整洁数组(neat array)。注意空数组总是整洁的。 给定一个由 n 个整数组成的数组 a，请找出其最长的整洁子序列∗的长度。 ∗序列 c 是序列 a 的子序列，当且仅当 c 可以通过从 a 的任意位置删除若干个(可能为零或全部)元素得到。 Ac代码 void solve() { int n; cin &gt;&gt; n; vint ... ]]></description>
-    <pubDate>Fri, 19 Sep 2025 10:58:25 GMT</pubDate>
-  </item><item>
-    <title>1.基本语法速通</title>
-    <link>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Java/1.%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E9%80%9F%E9%80%9A</link>
-    <guid>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Java/1.%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E9%80%9F%E9%80%9A</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 18 Sep 2025 02:25:38 GMT</pubDate>
   </item>
     </channel>
   </rss>
