@@ -10,61 +10,61 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Oct 2025 13:49:00 GMT</pubDate>
+    <pubDate>Mon, 12 Jan 2026 01:44:31 GMT</pubDate>
   </item><item>
     <title>未命名</title>
     <link>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
     <guid>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
-    <description><![CDATA[ \begin{bmatrix} T(e_{1}) &amp;T(e_{2)}&amp;\cdots T(e_{n}) \end{bmatrix} \begin{bmatrix}x_{1} \\ x_{2} \\ \cdots \\ x_{n}\end{bmatrix}. ]]></description>
-    <pubDate>Sun, 12 Oct 2025 09:37:26 GMT</pubDate>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 08 Jan 2026 13:35:33 GMT</pubDate>
   </item><item>
-    <title>DP问题全记录</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</guid>
-    <description><![CDATA[ Q1 CF2135A 我们定义一个块(block)为其中所有元素都等于数组长度的数组。例如，[3,3,3]、[1] 和 [4,4,4,4] 都是块，而 [1,1,1] 和 [2,3,3] 则不是。 若一个数组可以通过任意数量(可能为零)的块连接而成，则称其为整洁数组(neat array)。注意空数组总是整洁的。 给定一个由 n 个整数组成的数组 a，请找出其最长的整洁子序列∗的长度。 ∗序列 c 是序列 a 的子序列，当且仅当 c 可以通过从 a 的任意位置删除若干个(可能为零或全部)元素得到。 Ac代码 void solve() { int n; cin &gt;&gt; n; vint ... ]]></description>
-    <pubDate>Sun, 12 Oct 2025 06:53:24 GMT</pubDate>
+    <title>指令系统</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 20 Dec 2025 03:21:13 GMT</pubDate>
+  </item><item>
+    <title>复习思路</title>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A4%8D%E4%B9%A0%E6%80%9D%E8%B7%AF</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A4%8D%E4%B9%A0%E6%80%9D%E8%B7%AF</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 13 Dec 2025 14:50:03 GMT</pubDate>
+  </item><item>
+    <title>期末题归档</title>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</guid>
+    <description><![CDATA[ 24 - 25 一、选择题（在每个小题四个备选答案中选出一个正确答案）（本大题共10小题，每小题2分，总计20分） 下面关于广义表的叙述中，不正确的是________。 A) 广义表可以是一个多层次的结构 B) 广义表至少有一个元素 C) 广义表可以被其他广义表所共享 D) 广义表可以是一个递归表 以下数据结构中哪一个是线性结构？ A) 有向图 B) 栈 C) 二叉树 D) B树 字符 A、B、C、D 依次进入一个栈，按出栈的先后顺序组成不同的字符串，至多可以组成________个不同的字符串。 A) 15 B) 16 C) 14 D) 21 对线性表，在下列哪种情况下应当采用链表表示？ A)... ]]></description>
+    <pubDate>Sat, 13 Dec 2025 14:44:49 GMT</pubDate>
+  </item><item>
+    <title>复变函数复习路线</title>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E5%A4%8D%E4%B9%A0%E8%B7%AF%E7%BA%BF</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E5%A4%8D%E4%B9%A0%E8%B7%AF%E7%BA%BF</guid>
+    <description><![CDATA[ 复变函数期末冲刺指南 (基于近三年真题分析) 一、 试卷结构透视 通过分析近三年的试卷，可以发现试卷结构极度稳定。如果你能熟练掌握以下7类计算题的解法，及格甚至高分都轻而易举。 题号题型分值考察内容 (高频)稳定性一选择题20分映射性质(w=1/z)、奇点类型、收敛性判断、积分值为零的条件⭐⭐⭐⭐二填空题15-20分辐角主值、复数运算、收敛半径、留数计算、调和函数系数⭐⭐⭐⭐11计算题8-9分解析性与可导性判定 (C-R方程)⭐⭐⭐⭐⭐ (必考)12计算题8-9分非闭合路径积分 (参数方程法 或 牛顿-莱布尼茨公式)⭐⭐⭐⭐⭐ (必考)13计算题8-9分泰勒级数展开⭐⭐⭐⭐⭐ (必考)14计算... ]]></description>
+    <pubDate>Sat, 29 Nov 2025 13:05:09 GMT</pubDate>
+  </item><item>
+    <title>期末题归档</title>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</guid>
+    <description><![CDATA[ 24-25 一、选择题（本大题共5小题，每小题4分，总计20分） 若z^2 = (\bar{z})^2，则必有（ ） A. z=0 B. \text{Re}(z)=0 C. \text{Im}(z)=0 D. ]]></description>
+    <pubDate>Thu, 06 Nov 2025 01:31:53 GMT</pubDate>
+  </item><item>
+    <title>概率论宝宝巴士</title>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%AE%9D%E5%AE%9D%E5%B7%B4%E5%A3%AB</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%AE%9D%E5%AE%9D%E5%B7%B4%E5%A3%AB</guid>
+    <description><![CDATA[ 概率论期末冲刺指南 (基于近三年真题分析) 试卷结构基本固定为：选择题（20分）、填空题（20分）、解答题（56分）和证明题（4分）。 这份指南将带你梳理必考知识点，明确复习的优先级。 一、 冲刺复习路线 (知识点梳理) 建议按照以下模块顺序进行复习，重点关注标记为 【极高频】 和 【高频】 的考点。 模块一：随机事件与概率 (第1章) 这是基础，主要出现在选择和填空题，以及第一道大题。 事件的关系与运算： 考点：理解互不相容（互斥）、相互独立的概念。 题型：选择题（如 2023 题1, 2022 题1, 2021 题1）、填空题（如 2023 题6, 2021 题6）。 概率基本性质： 考点... ]]></description>
+    <pubDate>Wed, 05 Nov 2025 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>随机事件与概率</title>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E4%B8%8E%E6%A6%82%E7%8E%87</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E4%B8%8E%E6%A6%82%E7%8E%87</guid>
+    <description><![CDATA[ 事件的关系与运算(T1) 很多基础知识的考点，下面列出一些常见的考点 当P(A) = 1时候，其可能不为必然事件(在数轴上选一点其不为0的概率) gantt dateFormat X axisFormat %s title U 的取值对 X, Y 及 XY 的影响 section U 的数轴区域 区域 1 (-2 到 -1) : -2, -1 区域 2 (-1 到 1) : -1, 1 区域 3 (1 到 2) : 1, 2 section X 的值 X = 0 (条件 U &lt; -1) : crit, -2, -1 X = 1 (条件 U ≥ -1) : active, -1, 2 se... ]]></description>
+    <pubDate>Wed, 05 Nov 2025 16:00:00 GMT</pubDate>
   </item><item>
     <title>题解I</title>
     <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</link>
     <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</guid>
     <description><![CDATA[ Problem - 2144D - Codeforces Background 给定一个数组A和两个整数k,x其中x &gt; 1你需要求出\sum\limits_{i=1}^{n-1} \left\lceil \frac{a_{i}}{x} \right\rceil,同时k表示a_{i}变为\left\lceil \frac{a_{i}}{x} \right\rceil后需要的代价,但是如果原本的数组中存在元素 \left\lceil \frac{a_{i}}{x} \right\rceil 就不用付出代价,你的任务是最大化 \sum\limits_{i=1}^{n-1} \left\lce... ]]></description>
-    <pubDate>Sun, 12 Oct 2025 06:52:19 GMT</pubDate>
-  </item><item>
-    <title>支持动态修改的线段树</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E7%BA%BF%E6%AE%B5%E6%A0%91Seg/%E6%94%AF%E6%8C%81%E5%8A%A8%E6%80%81%E4%BF%AE%E6%94%B9%E7%9A%84%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E7%BA%BF%E6%AE%B5%E6%A0%91Seg/%E6%94%AF%E6%8C%81%E5%8A%A8%E6%80%81%E4%BF%AE%E6%94%B9%E7%9A%84%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
-    <description><![CDATA[ 动态修改 作为一颗线段树，如果它只能查询而不能修改，就很容易被上位替代，而支持在O(\log n) 下进行区间修改和区间查询，则是线段树最大的优势 要实现区间修改，我们需要引入 lazy propagation即懒标记 懒标记的作用我们用如下例子表示： 假设我们需要对区间 [2,5] 的元素都+10，且当前节点[1,8] 覆盖了 [2,5] 我们可以： 不立即递归更新子节点 在当前节点打上懒标记 记录这个区间整体应该要+10 只有当 下次访问到这个区间的子节点的时，才下传这个标记 变化 和支持区间查询的线段树的线段树相比，我们的结构体的存储信息应该多加上懒标记的信息 同时我们需要多加一些函数来... ]]></description>
-    <pubDate>Thu, 09 Oct 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>国庆赛1</title>
-    <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E5%9B%BD%E5%BA%86%E8%B5%9B1</link>
-    <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E5%9B%BD%E5%BA%86%E8%B5%9B1</guid>
-    <description><![CDATA[ by imicola 预期难度: easy:A , B , C , D easy-mid: E, F ,K mid: H , G , J hard: I ,L F 思维,Nim博弈 这题其实严格证明很神秘,但是我们可以猜出当n \bmod (k + 1) = 0的情况时候,A无法构成一个必定胜利的情况,这可以从n=k+1的情况下手然后猜测并验证n = 2(k+1) 对于证明: 因为牌1的数量特别多,所以这题其实退化为经典的取石头问题 : 两个人轮流取n个石头,每次最少取1个最多取k个,问谁可以最先将石头取完 在这个情景下,后手获胜的情况有且仅有n \bmod (k + 1) = 0 AC so... ]]></description>
-    <pubDate>Thu, 09 Oct 2025 02:13:22 GMT</pubDate>
-  </item><item>
-    <title>未命名</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 09 Oct 2025 00:22:44 GMT</pubDate>
-  </item><item>
-    <title>语句表达式</title>
-    <link>https://imicola.github.io/ACM/%E5%A5%87%E5%A6%99C++%E7%94%A8%E6%B3%95/%E8%AF%AD%E5%8F%A5%E8%A1%A8%E8%BE%BE%E5%BC%8F</link>
-    <guid>https://imicola.github.io/ACM/%E5%A5%87%E5%A6%99C++%E7%94%A8%E6%B3%95/%E8%AF%AD%E5%8F%A5%E8%A1%A8%E8%BE%BE%E5%BC%8F</guid>
-    <description><![CDATA[ 我们注意一段神奇代码 auto a = ({ int p = 10, q = 20; p + q; }); 这其实是GUN扩展下的cpp语句扩展表达式 其等价于: auto a = []{ int p = 10,q = 20; return p + q; }(); 可以在我们想要快速初始化的时候可以使用. ]]></description>
-    <pubDate>Wed, 08 Oct 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>支持区间查询的线段树</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E7%BA%BF%E6%AE%B5%E6%A0%91Seg/%E6%94%AF%E6%8C%81%E5%8C%BA%E9%97%B4%E6%9F%A5%E8%AF%A2%E7%9A%84%E7%BA%BF%E6%AE%B5%E6%A0%91</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E7%BA%BF%E6%AE%B5%E6%A0%91Seg/%E6%94%AF%E6%8C%81%E5%8C%BA%E9%97%B4%E6%9F%A5%E8%AF%A2%E7%9A%84%E7%BA%BF%E6%AE%B5%E6%A0%91</guid>
-    <description><![CDATA[ 引子：线段树是什么 不知道你有没有被某些算法题搞得焦头烂额，例如给你Q次询问求区间和，区间最大最小，区间子段和这些神秘题目，但是现在，他们都将变成板子题！ 线段树是一种二叉树结构,其实作用是可以快速修改和查询,我们先从支持查询的线段数开始 线段树思想 线段树通过将一段区间不断二分，直到分解成单个节点的元素，然后通过合并子区间的信息从而得到父区间的结果，将区间问题变成 分治合并问题 实现 一颗完整的静态线段树需要进行 建树 合并 查询 这些操作 维护信息 根据题目的意义，我们的节点可能维护的信息是不一样的 区间和(sum) 区间最值(max / min) 区间最大子段和 (sum,lmax,rm... ]]></description>
-    <pubDate>Wed, 08 Oct 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>7.二维随机变量</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/7.%E4%BA%8C%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/7.%E4%BA%8C%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</guid>
-    <description><![CDATA[ 二维随机变量 对一个随机事件 E,U = \{e\}\quad \forall e \in U,X(e),Y(e) \in \mathbb{R} [!二维随机变量的分布函数] (X,Y)\quad \forall x,y \in \mathbb{R} 有 F(x,y) = P\{(X \leq x) \cap (Y \leq y)\} 我们不难看出，这个函数是在点(x,y)左下角的面积区域 性质 固定某一个变量时候，F(x,y)是单调不减的 0 \leq F(x,y) \leq 1 \lim_{x,y\to+\infty}F(x,y) = 1 F(-\infty,-\infty) = F(-\... ]]></description>
-    <pubDate>Thu, 25 Sep 2025 16:00:00 GMT</pubDate>
+    <pubDate>Wed, 05 Nov 2025 09:40:14 GMT</pubDate>
   </item>
     </channel>
   </rss>
