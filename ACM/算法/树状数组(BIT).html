@@ -142,7 +142,7 @@ pre:hover > .expand-button {
 </li>
 <li>
 <p>最终我们会得到下面的一幅图：<br/>
-<img src="../../Pasted-image-20250410091011.png" width="auto" height="auto" alt/></p>
+<img src="../../attachments/Pasted-image-20250410091011.png" width="auto" height="auto" alt/></p>
 </li>
 <li>
 <p>我们发现在我们进行修改和区间和的时候，有些元素是完全不会被用上的</p>
@@ -153,14 +153,14 @@ pre:hover > .expand-button {
 </li>
 <li>
 <p>所以我们将从上到下每个数组偶数个元素删去<br/>
-<img src="../../Pasted-image-20250410091628.png" width="auto" height="auto" alt/></p>
+<img src="../../attachments/Pasted-image-20250410091628.png" width="auto" height="auto" alt/></p>
 </li>
 <li>
 <p>发现剩下的数据正好有<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>个,即我们的新数组可以表示为一个为长度<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>的新数组，即<strong>树状数组</strong></p>
 </li>
 <li>
 <p>数组中的每一个元素，都代表莫一个区间<br/>
-<img src="../../Pasted-image-20250410092620.png" width="auto" height="auto" alt/></p>
+<img src="../../attachments/Pasted-image-20250410092620.png" width="auto" height="auto" alt/></p>
 </li>
 <li>
 <p>则我们可以在这个新的数组中了解树状数组两个操作，即<strong>单点修改</strong>和<strong>区间查询</strong></p>
@@ -182,7 +182,7 @@ pre:hover > .expand-button {
 <ul>
 <li>而树状数组的性质告诉我们，某一个序列上方的序列在树状数组的下标中为：<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0019em;vertical-align:-0.25em;"></span><span class="mord mathnormal">b</span><span class="mopen">[</span><span class="mord"><span class="mord mathnormal">i</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mclose">]</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">b</span><span class="mopen">[</span><span class="mord mathnormal">i</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">lowbit</span></span><span class="mopen">(</span><span class="mord mathnormal">i</span><span class="mclose">)</span></span></span></span></li>
 <li>则我们只需要不断的向上累加直到超过长度就可以了<br/>
-<img src="../../Pasted-image-20250410163956.png" width="auto" height="auto" alt/></li>
+<img src="../../attachments/Pasted-image-20250410163956.png" width="auto" height="auto" alt/></li>
 </ul>
 </li>
 </ul>

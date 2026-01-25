@@ -125,7 +125,7 @@ pre:hover > .expand-button {
 <p>我们的<code>shell</code>在结束一个进程的时候，通常都是发送一个信号来 “通知” 进程结束，这个进程接受到这个信号后会做出一系列反应。就这一点而言，信号是一直 <em>软件中断</em></p>
 <p>在上面的例子中，我们按下 <code>Ctrl-C</code> 时候，<code>shell</code>会发送一个<code>SIGINT</code>信号到进程</p>
 <p>当我们知道了进程信号，也就有规避信号的方法<br/>
-<img src="../../PixPin_2025-07-23_16-19-18.gif" width="auto" height="auto" alt/></p>
+<img src="../../attachments/PixPin_2025-07-23_16-19-18.gif" width="auto" height="auto" alt/></p>
 <p>这个<code>systest.py</code> 接收 <code>SIGINT</code> 但没有终止程序</p>
 <figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="python" data-theme="github-light github-dark"><code data-language="python" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">#!/usr/bin/env python</span></span>
 <span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> signal, time</span></span>

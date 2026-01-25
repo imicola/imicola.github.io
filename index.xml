@@ -10,61 +10,61 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 12 Jan 2026 01:44:31 GMT</pubDate>
+    <pubDate>Sun, 25 Jan 2026 11:17:34 GMT</pubDate>
   </item><item>
-    <title>未命名</title>
-    <link>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
-    <guid>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 08 Jan 2026 13:35:33 GMT</pubDate>
+    <title>3.多线程与并发</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/3.%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/3.%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</guid>
+    <description><![CDATA[ 不要通过共享内存来通信，而要通过通信来共享内存. ]]></description>
+    <pubDate>Sun, 25 Jan 2026 08:33:20 GMT</pubDate>
+  </item><item>
+    <title>寒假期间Todo</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Todo/%E5%AF%92%E5%81%87%E6%9C%9F%E9%97%B4Todo</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Todo/%E5%AF%92%E5%81%87%E6%9C%9F%E9%97%B4Todo</guid>
+    <description><![CDATA[  学习Go语言 基本语法 接口 并发与多线程 Linux知识补全 [ ] . ]]></description>
+    <pubDate>Sun, 25 Jan 2026 08:27:40 GMT</pubDate>
+  </item><item>
+    <title>2.接口</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/2.%E6%8E%A5%E5%8F%A3</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/2.%E6%8E%A5%E5%8F%A3</guid>
+    <description><![CDATA[ 语法 我们使用 type [接口名称] interface{} 来声明一个接口 type Sayer interface { Say(messge string) error } 当我们需要实现一个接口的继承的时候，我们可以直接实现这个接口里的方法 type Dog struct { name string } func (dog *Dog)Say(messge string) error{ fmt.println(dog.name + &quot;说：&quot; + messge) return nil } // 在实现的时候我们可以 var sa Sayer d := &amp;Dog{... ]]></description>
+    <pubDate>Sun, 25 Jan 2026 06:48:07 GMT</pubDate>
+  </item><item>
+    <title>1.Go语言语法</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/1.Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/1.Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</guid>
+    <description><![CDATA[ 语言特性 less can be more 这是go语言的核心思想 在go语言中，没有继承，多态，甚至是类 在go的文档中说Go语言几乎和C/C++一样快实则不然 语法 变量定义 在go语言中，主要采用类型后置的命名方式： var age int = 25 \\ 经典定义方式 var age = 25 \\ 自动推断，类似C++中 auto age := 25 \\ 简短定义，等效上一条 在Golang中支持批量的定义 var( a string b int c bool d float32 ) 我们需要注意Golang的命名规则，即首字母大写的命名在包外是可以访问的 输入输出流(CLI下) ... ]]></description>
+    <pubDate>Sat, 24 Jan 2026 16:09:37 GMT</pubDate>
+  </item><item>
+    <title>0.为什么要学习golang</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/0.%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/0.%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</guid>
+    <description><![CDATA[ 这就和问我为什么要演奏春日影一样 很多容器都是用go语言写的，学习go语言还是有必要的. ]]></description>
+    <pubDate>Sat, 24 Jan 2026 15:58:34 GMT</pubDate>
+  </item><item>
+    <title>2.计算机的发展及应用</title>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</guid>
+    <description><![CDATA[  这一节的内容不是很重要,我们选择跳过 . ]]></description>
+    <pubDate>Thu, 22 Jan 2026 11:28:58 GMT</pubDate>
   </item><item>
     <title>指令系统</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</guid>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 20 Dec 2025 03:21:13 GMT</pubDate>
+    <pubDate>Thu, 22 Jan 2026 11:28:58 GMT</pubDate>
   </item><item>
-    <title>复习思路</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A4%8D%E4%B9%A0%E6%80%9D%E8%B7%AF</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A4%8D%E4%B9%A0%E6%80%9D%E8%B7%AF</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 13 Dec 2025 14:50:03 GMT</pubDate>
+    <title>6.连续型随机变量</title>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/6.%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/6.%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</guid>
+    <description><![CDATA[ 定义与概率密度 对于随机变量X,若存在非负可积函数 f(x),\, x\in \mathbb{R} 对于任意a,b \in \mathbb{R},(a &lt; b),\Longrightarrow P(a &lt; X \leq b) = \int_{a}^{b}f(x)\mathrm{d}x 称X为连续型变量， f(x) 称为X的概率密度函数，求在区间L,R 的概率就是求这个区间的积分 性质： f(x) \geq 0 \int^{\infty}_{\infty}f(x) = 1 分布函数 定义2： 随机变量X(离散型，连续型)，x \in \mathbb{R} 称F(x) = P\{X \... ]]></description>
+    <pubDate>Thu, 22 Jan 2026 11:28:58 GMT</pubDate>
   </item><item>
-    <title>期末题归档</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</guid>
-    <description><![CDATA[ 24 - 25 一、选择题（在每个小题四个备选答案中选出一个正确答案）（本大题共10小题，每小题2分，总计20分） 下面关于广义表的叙述中，不正确的是________。 A) 广义表可以是一个多层次的结构 B) 广义表至少有一个元素 C) 广义表可以被其他广义表所共享 D) 广义表可以是一个递归表 以下数据结构中哪一个是线性结构？ A) 有向图 B) 栈 C) 二叉树 D) B树 字符 A、B、C、D 依次进入一个栈，按出栈的先后顺序组成不同的字符串，至多可以组成________个不同的字符串。 A) 15 B) 16 C) 14 D) 21 对线性表，在下列哪种情况下应当采用链表表示？ A)... ]]></description>
-    <pubDate>Sat, 13 Dec 2025 14:44:49 GMT</pubDate>
-  </item><item>
-    <title>复变函数复习路线</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E5%A4%8D%E4%B9%A0%E8%B7%AF%E7%BA%BF</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E5%A4%8D%E4%B9%A0%E8%B7%AF%E7%BA%BF</guid>
-    <description><![CDATA[ 复变函数期末冲刺指南 (基于近三年真题分析) 一、 试卷结构透视 通过分析近三年的试卷，可以发现试卷结构极度稳定。如果你能熟练掌握以下7类计算题的解法，及格甚至高分都轻而易举。 题号题型分值考察内容 (高频)稳定性一选择题20分映射性质(w=1/z)、奇点类型、收敛性判断、积分值为零的条件⭐⭐⭐⭐二填空题15-20分辐角主值、复数运算、收敛半径、留数计算、调和函数系数⭐⭐⭐⭐11计算题8-9分解析性与可导性判定 (C-R方程)⭐⭐⭐⭐⭐ (必考)12计算题8-9分非闭合路径积分 (参数方程法 或 牛顿-莱布尼茨公式)⭐⭐⭐⭐⭐ (必考)13计算题8-9分泰勒级数展开⭐⭐⭐⭐⭐ (必考)14计算... ]]></description>
-    <pubDate>Sat, 29 Nov 2025 13:05:09 GMT</pubDate>
-  </item><item>
-    <title>期末题归档</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</guid>
-    <description><![CDATA[ 24-25 一、选择题（本大题共5小题，每小题4分，总计20分） 若z^2 = (\bar{z})^2，则必有（ ） A. z=0 B. \text{Re}(z)=0 C. \text{Im}(z)=0 D. ]]></description>
-    <pubDate>Thu, 06 Nov 2025 01:31:53 GMT</pubDate>
-  </item><item>
-    <title>概率论宝宝巴士</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%AE%9D%E5%AE%9D%E5%B7%B4%E5%A3%AB</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%AE%9D%E5%AE%9D%E5%B7%B4%E5%A3%AB</guid>
-    <description><![CDATA[ 概率论期末冲刺指南 (基于近三年真题分析) 试卷结构基本固定为：选择题（20分）、填空题（20分）、解答题（56分）和证明题（4分）。 这份指南将带你梳理必考知识点，明确复习的优先级。 一、 冲刺复习路线 (知识点梳理) 建议按照以下模块顺序进行复习，重点关注标记为 【极高频】 和 【高频】 的考点。 模块一：随机事件与概率 (第1章) 这是基础，主要出现在选择和填空题，以及第一道大题。 事件的关系与运算： 考点：理解互不相容（互斥）、相互独立的概念。 题型：选择题（如 2023 题1, 2022 题1, 2021 题1）、填空题（如 2023 题6, 2021 题6）。 概率基本性质： 考点... ]]></description>
-    <pubDate>Wed, 05 Nov 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>随机事件与概率</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E4%B8%8E%E6%A6%82%E7%8E%87</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E4%B8%8E%E6%A6%82%E7%8E%87</guid>
-    <description><![CDATA[ 事件的关系与运算(T1) 很多基础知识的考点，下面列出一些常见的考点 当P(A) = 1时候，其可能不为必然事件(在数轴上选一点其不为0的概率) gantt dateFormat X axisFormat %s title U 的取值对 X, Y 及 XY 的影响 section U 的数轴区域 区域 1 (-2 到 -1) : -2, -1 区域 2 (-1 到 1) : -1, 1 区域 3 (1 到 2) : 1, 2 section X 的值 X = 0 (条件 U &lt; -1) : crit, -2, -1 X = 1 (条件 U ≥ -1) : active, -1, 2 se... ]]></description>
-    <pubDate>Wed, 05 Nov 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>题解I</title>
-    <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</link>
-    <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</guid>
-    <description><![CDATA[ Problem - 2144D - Codeforces Background 给定一个数组A和两个整数k,x其中x &gt; 1你需要求出\sum\limits_{i=1}^{n-1} \left\lceil \frac{a_{i}}{x} \right\rceil,同时k表示a_{i}变为\left\lceil \frac{a_{i}}{x} \right\rceil后需要的代价,但是如果原本的数组中存在元素 \left\lceil \frac{a_{i}}{x} \right\rceil 就不用付出代价,你的任务是最大化 \sum\limits_{i=1}^{n-1} \left\lce... ]]></description>
-    <pubDate>Wed, 05 Nov 2025 09:40:14 GMT</pubDate>
+    <title>4.事件的独立性</title>
+    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/4.%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%80%A7</link>
+    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/4.%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%80%A7</guid>
+    <description><![CDATA[  定义: 若P(AB) = P(A)P(B)则称AB 相互独立 Tip 若{A,B},{\overline{A}B},{A\overline{B}},{\overline{A}\ \overline{B}}中有一组互相独立,则其余三组都互相独立 若P(A) = 1 \text{ or } 0 ,则对任意B,AB独立 若P(A) &gt; 0 \text{ and }P(B) &gt; 0,则AB互不相容与AB独立不能同时出现 三事件互相独立 若ABC两两独立且P(ABC) = P(A)P(B)P(C) ,则称ABC相互独立 性质 若AB独立,则P(A) = P(A|B) . ]]></description>
+    <pubDate>Thu, 22 Jan 2026 11:28:58 GMT</pubDate>
   </item>
     </channel>
   </rss>
