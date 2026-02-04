@@ -10,61 +10,61 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 27 Jan 2026 12:03:05 GMT</pubDate>
+    <pubDate>Wed, 04 Feb 2026 09:01:15 GMT</pubDate>
   </item><item>
-    <title>3.多线程与并发</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/3.%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/3.%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</guid>
-    <description><![CDATA[ 不要通过共享内存来通信，而要通过通信来共享内存 概念明晰 在深入了解并发前我们需要了解一些关于多线程和并发编程中常见的概念 并发：是指你的程序有处理多个任务的能力。在一个单核 CPU 上，通过快速切换任务，看起来像是同时在做很多事，但实际上某一时刻只有一个任务在运行。 并行：是指你的程序有同时执行多个任务的能力。这需要多核 CPU 的硬件支持，让不同的任务真正地在不同的核心上同时运转。 同时在我们需要了解一下 进程，线程和协程三者的区别 特性进程 (Process)线程 (Thread)协程 (Goroutine)拥有者操作系统操作系统Go 运行时 (Runtime)内存占用很大 (MB 级别... ]]></description>
-    <pubDate>Tue, 27 Jan 2026 12:00:31 GMT</pubDate>
+    <title>Go-MOC</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go-MOC</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go-MOC</guid>
+    <description><![CDATA[ Go语言是许多服务器和容器的原生语言，也是当代兴起的语言，我们学习Go语言 Go语言语法设计 Go语言语法 接口 多线程与并发 . ]]></description>
+    <pubDate>Wed, 04 Feb 2026 08:57:02 GMT</pubDate>
   </item><item>
-    <title>2.接口</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/2.%E6%8E%A5%E5%8F%A3</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/2.%E6%8E%A5%E5%8F%A3</guid>
+    <title>为什么要学习golang</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</guid>
+    <description><![CDATA[ 这就和问我为什么要演奏春日影一样 很多原生云都是用go语言写的，学习go语言还是有必要的. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 08:56:09 GMT</pubDate>
+  </item><item>
+    <title>性能分析</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</guid>
+    <description><![CDATA[ 代码不能完全按照您的想法运行，它只能完全按照您的写法运行。 在算法或者数据结构课程上我们会学习大O表示法用来表示程序的复杂度，但是却很少教我们如何找到程序中的热点，鉴于过早优化是万恶之源，我们应该了解一下性能分析器 (profilers) 和监控工具。它们会帮助我们找到程序中最耗时、最耗资源的部分，从而让我们能够集中精力优化这些特定的部分。 计时 和调试一致，我们可以打印代码从一处到另外一处所消耗的时间就可以发现问题 import time, random n = random.randint(1, 10) * 100 # 获取当前时间 start = time.time() # 做些工作 p... ]]></description>
+    <pubDate>Wed, 04 Feb 2026 08:28:50 GMT</pubDate>
+  </item><item>
+    <title>接口</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E6%8E%A5%E5%8F%A3</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E6%8E%A5%E5%8F%A3</guid>
     <description><![CDATA[ 语法 我们使用 type [接口名称] interface{} 来声明一个接口 type Sayer interface { Say(messge string) error } 当我们需要实现一个接口的继承的时候，我们可以直接实现这个接口里的方法 type Dog struct { name string } func (dog *Dog)Say(messge string) error{ fmt.println(dog.name + &quot;说：&quot; + messge) return nil } // 在实现的时候我们可以 var sa Sayer d := &amp;Dog{... ]]></description>
-    <pubDate>Tue, 27 Jan 2026 08:03:46 GMT</pubDate>
+    <pubDate>Wed, 04 Feb 2026 02:22:07 GMT</pubDate>
   </item><item>
-    <title>寒假期间Todo</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Todo/%E5%AF%92%E5%81%87%E6%9C%9F%E9%97%B4Todo</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Todo/%E5%AF%92%E5%81%87%E6%9C%9F%E9%97%B4Todo</guid>
-    <description><![CDATA[  学习Go语言 基本语法 接口 并发与多线程 Linux知识补全 [ ] . ]]></description>
-    <pubDate>Sun, 25 Jan 2026 08:27:40 GMT</pubDate>
+    <title>多线程与并发</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</guid>
+    <description><![CDATA[ 不要通过共享内存来通信，而要通过通信来共享内存 概念明晰 在深入了解并发前我们需要了解一些关于多线程和并发编程中常见的概念 并发：是指你的程序有处理多个任务的能力。在一个单核 CPU 上，通过快速切换任务，看起来像是同时在做很多事，但实际上某一时刻只有一个任务在运行。 并行：是指你的程序有同时执行多个任务的能力。这需要多核 CPU 的硬件支持，让不同的任务真正地在不同的核心上同时运转。 同时在我们需要了解一下 进程，线程和协程三者的区别 特性进程 (Process)线程 (Thread)协程 (Goroutine)拥有者操作系统操作系统Go 运行时 (Runtime)内存占用很大 (MB 级别... ]]></description>
+    <pubDate>Wed, 04 Feb 2026 02:21:25 GMT</pubDate>
   </item><item>
-    <title>1.Go语言语法</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/1.Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/1.Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</guid>
+    <title>Go语言语法</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</guid>
     <description><![CDATA[ 语言特性 less can be more 这是go语言的核心思想 在go语言中，没有继承，多态，甚至是类 在go的文档中说Go语言几乎和C/C++一样快实则不然 语法 变量定义 在go语言中，主要采用类型后置的命名方式： var age int = 25 \\ 经典定义方式 var age = 25 \\ 自动推断，类似C++中 auto age := 25 \\ 简短定义，等效上一条 在Golang中支持批量的定义 var( a string b int c bool d float32 ) 我们需要注意Golang的命名规则，即首字母大写的命名在包外是可以访问的 输入输出流(CLI下) ... ]]></description>
-    <pubDate>Sat, 24 Jan 2026 16:09:37 GMT</pubDate>
+    <pubDate>Wed, 04 Feb 2026 02:14:03 GMT</pubDate>
   </item><item>
-    <title>0.为什么要学习golang</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/0.%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/0.%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</guid>
-    <description><![CDATA[ 这就和问我为什么要演奏春日影一样 很多容器都是用go语言写的，学习go语言还是有必要的. ]]></description>
-    <pubDate>Sat, 24 Jan 2026 15:58:34 GMT</pubDate>
+    <title>ABC-418</title>
+    <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/Atcoder/ABC-418</link>
+    <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/Atcoder/ABC-418</guid>
+    <description><![CDATA[ A 签到,使用substr()方法即可得出答案 B 注意到当 t 连续出现三次的时候可以组成一个覆盖率1的情况. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 02:08:43 GMT</pubDate>
   </item><item>
-    <title>2.计算机的发展及应用</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</guid>
-    <description><![CDATA[  这一节的内容不是很重要,我们选择跳过 . ]]></description>
-    <pubDate>Thu, 22 Jan 2026 11:28:58 GMT</pubDate>
+    <title>题解I</title>
+    <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</link>
+    <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</guid>
+    <description><![CDATA[ Problem - 2144D - Codeforces Background 给定一个数组A和两个整数k,x其中x &gt; 1你需要求出\sum\limits_{i=1}^{n-1} \left\lceil \frac{a_{i}}{x} \right\rceil,同时k表示a_{i}变为\left\lceil \frac{a_{i}}{x} \right\rceil后需要的代价,但是如果原本的数组中存在元素 \left\lceil \frac{a_{i}}{x} \right\rceil 就不用付出代价,你的任务是最大化 \sum\limits_{i=1}^{n-1} \left\lce... ]]></description>
+    <pubDate>Wed, 04 Feb 2026 02:08:34 GMT</pubDate>
   </item><item>
-    <title>指令系统</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 22 Jan 2026 11:28:58 GMT</pubDate>
-  </item><item>
-    <title>6.连续型随机变量</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/6.%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/6.%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</guid>
-    <description><![CDATA[ 定义与概率密度 对于随机变量X,若存在非负可积函数 f(x),\, x\in \mathbb{R} 对于任意a,b \in \mathbb{R},(a &lt; b),\Longrightarrow P(a &lt; X \leq b) = \int_{a}^{b}f(x)\mathrm{d}x 称X为连续型变量， f(x) 称为X的概率密度函数，求在区间L,R 的概率就是求这个区间的积分 性质： f(x) \geq 0 \int^{\infty}_{\infty}f(x) = 1 分布函数 定义2： 随机变量X(离散型，连续型)，x \in \mathbb{R} 称F(x) = P\{X \... ]]></description>
-    <pubDate>Thu, 22 Jan 2026 11:28:58 GMT</pubDate>
-  </item><item>
-    <title>4.事件的独立性</title>
-    <link>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/4.%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%80%A7</link>
-    <guid>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/4.%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%80%A7</guid>
-    <description><![CDATA[  定义: 若P(AB) = P(A)P(B)则称AB 相互独立 Tip 若{A,B},{\overline{A}B},{A\overline{B}},{\overline{A}\ \overline{B}}中有一组互相独立,则其余三组都互相独立 若P(A) = 1 \text{ or } 0 ,则对任意B,AB独立 若P(A) &gt; 0 \text{ and }P(B) &gt; 0,则AB互不相容与AB独立不能同时出现 三事件互相独立 若ABC两两独立且P(ABC) = P(A)P(B)P(C) ,则称ABC相互独立 性质 若AB独立,则P(A) = P(A|B) . ]]></description>
-    <pubDate>Thu, 22 Jan 2026 11:28:58 GMT</pubDate>
+    <title>DP问题全记录</title>
+    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</link>
+    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</guid>
+    <description><![CDATA[ Q1 CF2135A 我们定义一个块(block)为其中所有元素都等于数组长度的数组。例如，[3,3,3]、[1] 和 [4,4,4,4] 都是块，而 [1,1,1] 和 [2,3,3] 则不是。 若一个数组可以通过任意数量(可能为零)的块连接而成，则称其为整洁数组(neat array)。注意空数组总是整洁的。 给定一个由 n 个整数组成的数组 a，请找出其最长的整洁子序列∗的长度。 ∗序列 c 是序列 a 的子序列，当且仅当 c 可以通过从 a 的任意位置删除若干个(可能为零或全部)元素得到。 Ac代码 void solve() { int n; cin &gt;&gt; n; vint ... ]]></description>
+    <pubDate>Wed, 04 Feb 2026 02:06:42 GMT</pubDate>
   </item>
     </channel>
   </rss>

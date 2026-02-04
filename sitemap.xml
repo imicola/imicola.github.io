@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://imicola.github.io/ACM/%E5%A5%87%E5%A6%99C++%E7%94%A8%E6%B3%95/C++%E6%A8%A1%E6%9D%BF</loc>
-    <lastmod>2025-09-04T16:33:51.650Z</lastmod>
+    <lastmod>2026-02-04T02:05:19.315Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/ACM/%E5%A5%87%E5%A6%99C++%E7%94%A8%E6%B3%95/%E7%8E%B0%E4%BB%A3C++%E4%B9%8Bfunction</loc>
     <lastmod>2025-07-17T16:00:00.000Z</lastmod>
@@ -15,7 +15,7 @@
     <lastmod>2025-07-17T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</loc>
-    <lastmod>2025-10-12T06:53:24.339Z</lastmod>
+    <lastmod>2026-02-04T02:06:42.556Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/%E5%8C%BA%E9%97%B4DP</loc>
     <lastmod>2025-07-17T16:00:00.000Z</lastmod>
@@ -84,7 +84,7 @@
     <lastmod>2025-08-31T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E5%BF%AB%E9%80%9F%E7%BB%84%E5%90%88%E6%95%B0</loc>
-    <lastmod>2025-09-04T16:33:51.666Z</lastmod>
+    <lastmod>2026-02-04T02:05:20.990Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/%E6%95%B0%E8%AE%BA/%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97</loc>
     <lastmod>2025-09-03T16:00:00.000Z</lastmod>
@@ -150,7 +150,7 @@
     <lastmod>2025-07-17T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/Atcoder/ABC-418</loc>
-    <lastmod>2025-08-31T13:42:40.000Z</lastmod>
+    <lastmod>2026-02-04T02:08:43.822Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/Codeforces/CR1037-div.3-%E9%A2%98%E8%A7%A3</loc>
     <lastmod>2025-07-17T16:00:00.000Z</lastmod>
@@ -159,22 +159,37 @@
     <lastmod>2025-09-21T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</loc>
-    <lastmod>2026-01-22T11:28:57.592Z</lastmod>
+    <lastmod>2026-02-04T02:08:34.949Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/0.%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</loc>
-    <lastmod>2026-01-24T15:58:34.196Z</lastmod>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go-MOC</loc>
+    <lastmod>2026-02-04T08:57:02.621Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/1.Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</loc>
-    <lastmod>2026-01-24T16:09:37.594Z</lastmod>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</loc>
+    <lastmod>2026-02-04T02:14:03.375Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/2.%E6%8E%A5%E5%8F%A3</loc>
-    <lastmod>2026-01-27T08:03:46.476Z</lastmod>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</loc>
+    <lastmod>2026-02-04T08:56:09.315Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/3.%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</loc>
-    <lastmod>2026-01-27T12:00:31.633Z</lastmod>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</loc>
+    <lastmod>2026-02-04T02:21:25.580Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E6%8E%A5%E5%8F%A3</loc>
+    <lastmod>2026-02-04T02:22:07.659Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/User-Space-and-Kernel-Space</loc>
+    <lastmod>2026-02-03T16:41:57.096Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86</loc>
+    <lastmod>2026-02-03T16:41:57.096Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E8%BF%BD%E8%B8%AA</loc>
+    <lastmod>2026-02-03T16:41:57.097Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/chomd</loc>
     <lastmod>2025-06-01T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/du</loc>
+    <lastmod>2026-02-03T16:41:57.098Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/find</loc>
     <lastmod>2025-07-15T16:00:00.000Z</lastmod>
@@ -192,22 +207,16 @@
     <lastmod>2025-05-31T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sed</loc>
-    <lastmod>2025-07-21T03:51:18.208Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.102Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</loc>
     <lastmod>2025-07-22T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E6%8A%98%E8%85%BE/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85linux</loc>
-    <lastmod>2025-06-08T16:00:00.000Z</lastmod>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/%E6%8A%80%E5%B7%A7/GO%E8%AF%AD%E8%A8%80%E4%B8%8Bpprf%E7%9A%84%E5%88%86%E6%9E%90</loc>
+    <lastmod>2026-02-04T01:51:35.325Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E6%8A%98%E8%85%BE/%E6%9C%80%E5%A5%BD%E7%9A%84linux%E5%8F%91%E8%A1%8C%E7%89%88%E2%80%94%E2%80%94WSL2%E7%9A%84%E4%BD%BF%E7%94%A8</loc>
-    <lastmod>2025-07-24T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Todo/%E5%AF%92%E5%81%87%E6%9C%9F%E9%97%B4Todo</loc>
-    <lastmod>2026-01-25T08:27:40.514Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/TODO/CS61%E7%B3%BB%E5%88%97/CS61A-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%A3%E9%87%8A</loc>
-    <lastmod>2026-01-22T11:26:03.301Z</lastmod>
+    <loc>https://imicola.github.io/attachments/out</loc>
+    <lastmod>2026-01-31T14:28:57.190Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E5%9C%A8%E4%B9%8B%E5%89%8D</loc>
     <lastmod>2025-07-21T16:00:00.000Z</lastmod>
@@ -242,6 +251,9 @@
     <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83</loc>
     <lastmod>2025-07-22T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</loc>
+    <lastmod>2026-02-04T08:28:50.220Z</lastmod>
+  </url><url>
     <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86</loc>
     <lastmod>2025-07-19T16:00:00.000Z</lastmod>
   </url><url>
@@ -252,79 +264,10 @@
     <lastmod>2025-07-16T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E8%B0%83%E8%AF%95%E4%BB%A5%E5%8F%8A%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</loc>
-    <lastmod>2025-09-15T06:03:27.836Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.114Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/%E5%BC%80%E6%BA%90</loc>
-    <lastmod>2026-01-22T11:28:58.099Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%AA%E5%91%BD%E5%90%8D</loc>
-    <lastmod>2026-01-22T11:26:03.302Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/SQL/1.SELECT</loc>
-    <lastmod>2025-09-10T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/SQL/2.CREATE</loc>
-    <lastmod>2025-09-21T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/0.%E6%95%B0%E6%8D%AE%E5%BA%93%E5%85%A5%E9%97%A8</loc>
-    <lastmod>2025-08-31T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/1.%E5%9F%BA%E7%A1%80%E4%B8%8E%E6%95%B0%E6%8D%AE</loc>
-    <lastmod>2025-08-31T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/2.%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BB%8B%E7%BB%8D</loc>
-    <lastmod>2025-09-03T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/0.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%85%A5%E9%97%A8</loc>
-    <lastmod>2025-09-01T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/1.%E7%BA%BF%E6%80%A7%E7%BB%93%E6%9E%84</loc>
-    <lastmod>2025-09-03T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97</loc>
-    <lastmod>2025-09-23T09:00:07.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/0.%E6%A6%82%E7%8E%87%E8%AE%BA</loc>
-    <lastmod>2025-09-02T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/1.%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E5%92%8C%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4-and-%E9%A2%91%E7%8E%87%E4%B8%8E%E6%A6%82%E7%8E%87</loc>
-    <lastmod>2025-09-02T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/2.%E5%8F%A4%E5%85%B8%E6%A6%82%E5%9E%8B</loc>
-    <lastmod>2025-09-04T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/3.%E6%9D%A1%E4%BB%B6%E6%A6%82%E7%8E%87</loc>
-    <lastmod>2025-09-04T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/4.%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%80%A7</loc>
-    <lastmod>2026-01-22T11:26:03.305Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/5.%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</loc>
-    <lastmod>2025-09-16T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/6.%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</loc>
-    <lastmod>2026-01-22T11:26:03.306Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/7.%E4%BA%8C%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</loc>
-    <lastmod>2025-09-25T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</loc>
-    <lastmod>2026-01-22T11:28:57.594Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/0.%E5%89%8D%E8%A8%80</loc>
-    <lastmod>2025-09-01T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E6%8B%AC</loc>
-    <lastmod>2025-09-01T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</loc>
-    <lastmod>2026-01-22T11:26:03.308Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/3.%E7%B3%BB%E7%BB%9F%E6%80%BB%E7%BA%BF</loc>
-    <lastmod>2025-09-03T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/4.%E6%95%B0%E6%8D%AE%E7%9A%84%E8%A1%A8%E7%A4%BA</loc>
-    <lastmod>2025-09-10T16:00:00.000Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.115Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%B8%80%E4%B8%8B%E6%9A%91%E6%9C%9F%E8%AE%A1%E5%88%92/forACM</loc>
     <lastmod>2025-07-12T16:00:00.000Z</lastmod>
@@ -336,7 +279,7 @@
     <lastmod>2025-07-12T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%B8%80%E4%B8%8B%E6%9A%91%E6%9C%9F%E8%AE%A1%E5%88%92/%E6%9D%82%E9%A1%B9</loc>
-    <lastmod>2025-09-01T07:34:01.000Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.117Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%B8%80%E4%B8%8B%E6%9C%9F%E6%9C%AB/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/%E5%8A%A8%E9%87%8F%E5%AE%9A%E7%90%86%E4%B8%8E%E8%83%BD%E9%87%8F%E5%AE%9A%E7%90%86</loc>
     <lastmod>2025-07-02T16:00:00.000Z</lastmod>
@@ -396,25 +339,73 @@
     <lastmod>2025-07-09T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E5%A4%8D%E4%B9%A0%E8%B7%AF%E7%BA%BF</loc>
-    <lastmod>2026-01-22T11:28:57.595Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.128Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</loc>
-    <lastmod>2026-01-22T11:28:57.596Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.129Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%A4%8D%E4%B9%A0%E6%80%9D%E8%B7%AF</loc>
-    <lastmod>2026-01-22T11:28:57.596Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.129Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</loc>
-    <lastmod>2026-01-22T11:28:57.597Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.130Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E6%9C%9F%E6%9C%AB%E9%A2%98%E5%BD%92%E6%A1%A3</loc>
-    <lastmod>2026-01-22T11:28:57.598Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.130Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%AE%9D%E5%AE%9D%E5%B7%B4%E5%A3%AB</loc>
     <lastmod>2025-11-05T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%9C%9F%E6%9C%AB/%E6%A6%82%E7%8E%87%E8%AE%BA/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E4%B8%8E%E6%A6%82%E7%8E%87</loc>
     <lastmod>2025-11-05T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/SQL/1.SELECT</loc>
+    <lastmod>2025-09-10T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/SQL/2.CREATE</loc>
+    <lastmod>2025-09-21T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/0.%E6%95%B0%E6%8D%AE%E5%BA%93%E5%85%A5%E9%97%A8</loc>
+    <lastmod>2025-08-31T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/1.%E5%9F%BA%E7%A1%80%E4%B8%8E%E6%95%B0%E6%8D%AE</loc>
+    <lastmod>2025-08-31T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/%E8%AF%BE%E4%B8%8A%E6%95%99%E5%AD%A6/2.%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BB%8B%E7%BB%8D</loc>
+    <lastmod>2025-09-03T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/0.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%85%A5%E9%97%A8</loc>
+    <lastmod>2025-09-01T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/1.%E7%BA%BF%E6%80%A7%E7%BB%93%E6%9E%84</loc>
+    <lastmod>2025-09-03T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97</loc>
+    <lastmod>2026-02-03T16:41:57.136Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-1/0.%E6%A6%82%E7%8E%87%E8%AE%BA</loc>
+    <lastmod>2025-09-02T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-1/1.%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E5%92%8C%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4-and-%E9%A2%91%E7%8E%87%E4%B8%8E%E6%A6%82%E7%8E%87</loc>
+    <lastmod>2025-09-02T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-1/2.%E5%8F%A4%E5%85%B8%E6%A6%82%E5%9E%8B</loc>
+    <lastmod>2025-09-04T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-1/3.%E6%9D%A1%E4%BB%B6%E6%A6%82%E7%8E%87</loc>
+    <lastmod>2025-09-04T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-1/4.%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%80%A7</loc>
+    <lastmod>2026-02-03T16:41:57.139Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-1/5.%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</loc>
+    <lastmod>2025-09-16T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-1/6.%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</loc>
+    <lastmod>2026-02-03T16:41:57.140Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-1/7.%E4%BA%8C%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</loc>
+    <lastmod>2025-09-25T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/0.%E6%A6%82%E7%8E%87%E8%AE%BA</loc>
     <lastmod>2025-09-02T16:00:00.000Z</lastmod>
@@ -429,19 +420,37 @@
     <lastmod>2025-09-04T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/4.%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%80%A7</loc>
-    <lastmod>2026-01-22T11:28:58.104Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.144Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/5.%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</loc>
     <lastmod>2025-09-16T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/6.%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</loc>
-    <lastmod>2026-01-22T11:28:58.105Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.145Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/7.%E4%BA%8C%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F</loc>
     <lastmod>2025-09-25T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</loc>
+    <lastmod>2026-02-03T16:41:57.146Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/0.%E5%89%8D%E8%A8%80</loc>
+    <lastmod>2025-09-01T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E6%8B%AC</loc>
+    <lastmod>2025-09-01T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</loc>
+    <lastmod>2026-02-03T16:41:57.147Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/3.%E7%B3%BB%E7%BB%9F%E6%80%BB%E7%BA%BF</loc>
+    <lastmod>2025-09-03T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/4.%E6%95%B0%E6%8D%AE%E7%9A%84%E8%A1%A8%E7%A4%BA</loc>
+    <lastmod>2025-09-10T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F</loc>
-    <lastmod>2026-01-22T11:28:58.106Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.150Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/0.%E5%89%8D%E8%A8%80</loc>
     <lastmod>2025-09-01T16:00:00.000Z</lastmod>
@@ -450,7 +459,7 @@
     <lastmod>2025-09-01T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%BA%94%E7%94%A8</loc>
-    <lastmod>2026-01-22T11:28:58.108Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.151Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%BD%92%E6%A1%A3/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/3.%E7%B3%BB%E7%BB%9F%E6%80%BB%E7%BA%BF</loc>
     <lastmod>2025-09-03T16:00:00.000Z</lastmod>
@@ -464,14 +473,17 @@
     <loc>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/Latex%E5%88%9D%E5%AD%A6</loc>
     <lastmod>2025-07-02T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/%E6%9D%82%E9%A1%B9/Latex/%E6%9C%AA%E5%91%BD%E5%90%8D</loc>
-    <lastmod>2026-01-22T11:28:57.599Z</lastmod>
-  </url><url>
     <loc>https://imicola.github.io/%E6%9D%82%E9%A1%B9/SSH</loc>
     <lastmod>2025-09-22T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E6%9D%82%E9%A1%B9/systemd%E9%97%AE%E9%A2%98</loc>
-    <lastmod>2025-09-08T12:20:27.708Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.154Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E6%9D%82%E9%A1%B9/%E6%8A%98%E8%85%BE/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85linux</loc>
+    <lastmod>2025-06-08T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/%E6%9D%82%E9%A1%B9/%E6%8A%98%E8%85%BE/%E6%9C%80%E5%A5%BD%E7%9A%84linux%E5%8F%91%E8%A1%8C%E7%89%88%E2%80%94%E2%80%94WSL2%E7%9A%84%E4%BD%BF%E7%94%A8</loc>
+    <lastmod>2025-07-24T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E6%9D%82%E9%A1%B9/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F</loc>
     <lastmod>2025-07-15T16:00:00.000Z</lastmod>
@@ -480,7 +492,7 @@
     <lastmod>2025-06-08T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</loc>
-    <lastmod>2026-01-27T12:03:05.111Z</lastmod>
+    <lastmod>2026-02-04T09:01:15.601Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/C++/STL/Deque-%E5%8F%8C%E5%90%91%E9%98%9F%E5%88%97</loc>
     <lastmod>2025-01-22T16:00:00.000Z</lastmod>
@@ -552,7 +564,7 @@
     <lastmod>2025-09-03T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Java/1.%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E9%80%9F%E9%80%9A</loc>
-    <lastmod>2025-09-18T02:25:38.000Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.170Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/1.Introduce</loc>
     <lastmod>2025-07-23T16:00:00.000Z</lastmod>
@@ -561,7 +573,7 @@
     <lastmod>2025-07-25T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/Python%E5%90%8C%E5%90%8D%E5%87%BD%E6%95%B0%E4%BC%A0%E5%8F%82</loc>
-    <lastmod>2025-08-12T14:17:32.937Z</lastmod>
+    <lastmod>2026-02-03T16:41:57.172Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/CS61A/Something/%E8%AF%AD%E8%A8%80%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BD%AC%E6%8D%A2</loc>
     <lastmod>2025-07-26T16:00:00.000Z</lastmod>
