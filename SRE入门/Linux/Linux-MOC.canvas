@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"83697debfc97487d","x":400,"y":-1000,"width":880,"height":740,"type":"group","label":"基本使用"},
+		{"id":"a7cc6477e57d49b0","type":"group","x":920,"y":-940,"width":290,"height":331,"label":"基本知识"},
+		{"id":"73b213c36a540ca5","type":"text","text":"# LINUX","x":-120,"y":40,"width":285,"height":72},
+		{"id":"c6623ff7ff355b58","x":440,"y":360,"width":250,"height":60,"type":"text","text":"进程与服务"},
+		{"id":"cc3829b98d085eea","type":"text","text":"[[基础入门/MIT-Missing-Semester/前言|MIT-Missing-Semester]]","x":940,"y":-920,"width":250,"height":80,"color":"6"},
+		{"id":"908510231ae8ff0a","type":"text","text":"[[Linux软件安装与构建|安装软件]]","x":940,"y":-800,"width":250,"height":60,"color":"6"},
+		{"id":"625b9499f5975c8c","type":"text","text":"[[目录访问与文件操作]]","x":940,"y":-700,"width":250,"height":71,"color":"6"},
+		{"id":"80fc4b6b5796133b","type":"text","text":"[[常见命令速查]]","x":940,"y":-550,"width":250,"height":60,"color":"4"},
+		{"id":"5dde8d999148695d","x":940,"y":-380,"width":250,"height":60,"color":"6","type":"text","text":"[[PATH]]"},
+		{"id":"9c6d4e46a02ff880","x":440,"y":-380,"width":250,"height":60,"type":"text","text":"环境与管理"},
+		{"id":"eb2cc2478f9cb1b1","type":"text","text":"基本知识","x":420,"y":-811,"width":250,"height":71},
+		{"id":"78d97a8f6b6b918b","type":"text","text":"基本命令","x":440,"y":-550,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"3647f70c05320593","fromNode":"78d97a8f6b6b918b","fromSide":"right","toNode":"80fc4b6b5796133b","toSide":"left"},
+		{"id":"f2a004473c03fc57","fromNode":"eb2cc2478f9cb1b1","fromSide":"right","toNode":"a7cc6477e57d49b0","toSide":"left"},
+		{"id":"b92c92b6e0ef51a1","fromNode":"9c6d4e46a02ff880","fromSide":"right","toNode":"5dde8d999148695d","toSide":"left"},
+		{"id":"7f4335ea2bb394d7","fromNode":"73b213c36a540ca5","fromSide":"bottom","toNode":"c6623ff7ff355b58","toSide":"left"},
+		{"id":"4e5d6f6fc1625eba","fromNode":"73b213c36a540ca5","fromSide":"top","toNode":"83697debfc97487d","toSide":"left"}
+	]
+}

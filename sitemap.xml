@@ -162,34 +162,40 @@
     <lastmod>2026-02-04T02:08:34.949Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go-MOC</loc>
-    <lastmod>2026-02-04T08:57:02.621Z</lastmod>
+    <lastmod>2026-02-13T13:17:14.771Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</loc>
-    <lastmod>2026-02-04T02:14:03.375Z</lastmod>
+    <lastmod>2026-02-12T11:55:02.468Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</loc>
     <lastmod>2026-02-04T08:56:09.315Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</loc>
-    <lastmod>2026-02-04T02:21:25.580Z</lastmod>
+    <lastmod>2026-02-14T07:17:10.876Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E6%8E%A5%E5%8F%A3</loc>
-    <lastmod>2026-02-04T02:22:07.659Z</lastmod>
+    <lastmod>2026-02-24T04:51:55.534Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/Linux%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E6%9E%84%E5%BB%BA</loc>
+    <lastmod>2026-02-07T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/User-Space-and-Kernel-Space</loc>
-    <lastmod>2026-02-03T16:41:57.096Z</lastmod>
+    <lastmod>2026-02-10T09:24:26.184Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86</loc>
-    <lastmod>2026-02-03T16:41:57.096Z</lastmod>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E7%9B%AE%E5%BD%95%E8%AE%BF%E9%97%AE%E4%B8%8E%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C</loc>
+    <lastmod>2026-02-08T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E8%BF%BD%E8%B8%AA</loc>
-    <lastmod>2026-02-03T16:41:57.097Z</lastmod>
+    <lastmod>2026-02-08T02:31:38.568Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/chomd</loc>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E3%80%81%E5%89%8D%E5%90%8E%E5%8F%B0%E3%80%81%E6%9C%8D%E5%8A%A1%E4%B8%8E%E4%BE%8B%E8%A1%8C%E6%80%A7%E4%BB%BB%E5%8A%A1</loc>
+    <lastmod>2026-02-26T09:53:40.797Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/chmod</loc>
     <lastmod>2025-06-01T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/du</loc>
-    <lastmod>2026-02-03T16:41:57.098Z</lastmod>
+    <lastmod>2026-02-05T02:22:00.564Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/find</loc>
     <lastmod>2025-07-15T16:00:00.000Z</lastmod>
@@ -212,6 +218,12 @@
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sort</loc>
     <lastmod>2025-07-22T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/sudo</loc>
+    <lastmod>2026-02-08T05:05:42.207Z</lastmod>
+  </url><url>
+    <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5</loc>
+    <lastmod>2026-02-08T05:13:23.658Z</lastmod>
+  </url><url>
     <loc>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/%E6%8A%80%E5%B7%A7/GO%E8%AF%AD%E8%A8%80%E4%B8%8Bpprf%E7%9A%84%E5%88%86%E6%9E%90</loc>
     <lastmod>2026-02-04T01:51:35.325Z</lastmod>
   </url><url>
@@ -233,6 +245,9 @@
     <loc>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%97%B2%E8%B0%88/%E6%97%B6%E9%9A%94%E5%8D%8A%E5%B9%B4%E5%AF%B9%E9%AB%98%E4%B8%AD%E7%9A%84%E6%84%9F%E6%82%9F</loc>
     <lastmod>2025-02-16T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%97%B2%E8%B0%88/%E6%B5%AE%E6%B8%B8%E5%8F%99%E4%BA%8B</loc>
+    <lastmod>2026-02-09T15:34:59.598Z</lastmod>
+  </url><url>
     <loc>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%97%B2%E8%B0%88/%E9%97%B2%E8%B0%88-%E7%96%BE%E7%97%85%EF%BC%8C%E4%BA%BA%E7%94%9F%E4%B9%8B%E8%8B%A6</loc>
     <lastmod>2025-06-07T16:00:00.000Z</lastmod>
   </url><url>
@@ -252,7 +267,7 @@
     <lastmod>2025-07-22T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</loc>
-    <lastmod>2026-02-04T08:28:50.220Z</lastmod>
+    <lastmod>2026-02-23T04:33:53.558Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86</loc>
     <lastmod>2025-07-19T16:00:00.000Z</lastmod>
@@ -263,8 +278,8 @@
     <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E7%BC%96%E8%BE%91%E5%99%A8(vim)</loc>
     <lastmod>2025-07-16T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E8%B0%83%E8%AF%95%E4%BB%A5%E5%8F%8A%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</loc>
-    <lastmod>2026-02-03T16:41:57.114Z</lastmod>
+    <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/GNU%E5%92%8CLinux</loc>
+    <lastmod>2026-02-08T09:13:14.327Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/%E5%BC%80%E6%BA%90</loc>
     <lastmod>2026-02-03T16:41:57.115Z</lastmod>
@@ -492,7 +507,7 @@
     <lastmod>2025-06-08T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</loc>
-    <lastmod>2026-02-04T09:01:15.601Z</lastmod>
+    <lastmod>2026-02-26T09:54:19.461Z</lastmod>
   </url><url>
     <loc>https://imicola.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/C++/STL/Deque-%E5%8F%8C%E5%90%91%E9%98%9F%E5%88%97</loc>
     <lastmod>2025-01-22T16:00:00.000Z</lastmod>

@@ -10,61 +10,61 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 04 Feb 2026 09:01:15 GMT</pubDate>
+    <pubDate>Thu, 26 Feb 2026 09:54:19 GMT</pubDate>
   </item><item>
-    <title>Go-MOC</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go-MOC</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go-MOC</guid>
-    <description><![CDATA[ Go语言是许多服务器和容器的原生语言，也是当代兴起的语言，我们学习Go语言 Go语言语法设计 Go语言语法 接口 多线程与并发 . ]]></description>
-    <pubDate>Wed, 04 Feb 2026 08:57:02 GMT</pubDate>
-  </item><item>
-    <title>为什么要学习golang</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0golang</guid>
-    <description><![CDATA[ 这就和问我为什么要演奏春日影一样 很多原生云都是用go语言写的，学习go语言还是有必要的. ]]></description>
-    <pubDate>Wed, 04 Feb 2026 08:56:09 GMT</pubDate>
-  </item><item>
-    <title>性能分析</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</guid>
-    <description><![CDATA[ 代码不能完全按照您的想法运行，它只能完全按照您的写法运行。 在算法或者数据结构课程上我们会学习大O表示法用来表示程序的复杂度，但是却很少教我们如何找到程序中的热点，鉴于过早优化是万恶之源，我们应该了解一下性能分析器 (profilers) 和监控工具。它们会帮助我们找到程序中最耗时、最耗资源的部分，从而让我们能够集中精力优化这些特定的部分。 计时 和调试一致，我们可以打印代码从一处到另外一处所消耗的时间就可以发现问题 import time, random n = random.randint(1, 10) * 100 # 获取当前时间 start = time.time() # 做些工作 p... ]]></description>
-    <pubDate>Wed, 04 Feb 2026 08:28:50 GMT</pubDate>
+    <title>进程、前后台、服务与例行性任务</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E3%80%81%E5%89%8D%E5%90%8E%E5%8F%B0%E3%80%81%E6%9C%8D%E5%8A%A1%E4%B8%8E%E4%BE%8B%E8%A1%8C%E6%80%A7%E4%BB%BB%E5%8A%A1</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E3%80%81%E5%89%8D%E5%90%8E%E5%8F%B0%E3%80%81%E6%9C%8D%E5%8A%A1%E4%B8%8E%E4%BE%8B%E8%A1%8C%E6%80%A7%E4%BB%BB%E5%8A%A1</guid>
+    <description><![CDATA[ 进程 进程是运行中的程序的实例，是操作系统进行资源分配和调度的基本单位，当然这些更加底层的事情我们会留到操作系统这门课的时候进行讲解 我们在window上可以通过任务管理器很轻松的看见运行在电脑上的进程，在linux中我们也有观察系统进程的工具 Linux进程管理器 很多人会推荐 htop 这一个工具来进行进程管理，这个工具是top命令的改良，可以很方便的查看当前所有的进程以及系统CPU，内存占用等信息，而且其占用低 我更推荐 btop 工具，在功能性上其完全不输 htop，只需要付出一点点的占用代价就能获得更加直观与全面的分析，同时更加美观~~(颜值即实用)~~，可以通过 btop 界面上展... ]]></description>
+    <pubDate>Thu, 26 Feb 2026 09:53:40 GMT</pubDate>
   </item><item>
     <title>接口</title>
     <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E6%8E%A5%E5%8F%A3</link>
     <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E6%8E%A5%E5%8F%A3</guid>
     <description><![CDATA[ 语法 我们使用 type [接口名称] interface{} 来声明一个接口 type Sayer interface { Say(messge string) error } 当我们需要实现一个接口的继承的时候，我们可以直接实现这个接口里的方法 type Dog struct { name string } func (dog *Dog)Say(messge string) error{ fmt.println(dog.name + &quot;说：&quot; + messge) return nil } // 在实现的时候我们可以 var sa Sayer d := &amp;Dog{... ]]></description>
-    <pubDate>Wed, 04 Feb 2026 02:22:07 GMT</pubDate>
+    <pubDate>Tue, 24 Feb 2026 04:51:55 GMT</pubDate>
+  </item><item>
+    <title>性能分析</title>
+    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</link>
+    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/MIT-Missing-Semester/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90</guid>
+    <description><![CDATA[ 代码不能完全按照您的想法运行，它只能完全按照您的写法运行。 在算法或者数据结构课程上我们会学习大O表示法用来表示程序的复杂度，但是却很少教我们如何找到程序中的热点，鉴于过早优化是万恶之源，我们应该了解一下性能分析器 (profilers) 和监控工具。它们会帮助我们找到程序中最耗时、最耗资源的部分，从而让我们能够集中精力优化这些特定的部分。 计时 和调试一致，我们可以打印代码从一处到另外一处所消耗的时间就可以发现问题 import time, random n = random.randint(1, 10) * 100 # 获取当前时间 start = time.time() # 做些工作 p... ]]></description>
+    <pubDate>Mon, 23 Feb 2026 04:33:53 GMT</pubDate>
   </item><item>
     <title>多线程与并发</title>
     <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</link>
     <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</guid>
     <description><![CDATA[ 不要通过共享内存来通信，而要通过通信来共享内存 概念明晰 在深入了解并发前我们需要了解一些关于多线程和并发编程中常见的概念 并发：是指你的程序有处理多个任务的能力。在一个单核 CPU 上，通过快速切换任务，看起来像是同时在做很多事，但实际上某一时刻只有一个任务在运行。 并行：是指你的程序有同时执行多个任务的能力。这需要多核 CPU 的硬件支持，让不同的任务真正地在不同的核心上同时运转。 同时在我们需要了解一下 进程，线程和协程三者的区别 特性进程 (Process)线程 (Thread)协程 (Goroutine)拥有者操作系统操作系统Go 运行时 (Runtime)内存占用很大 (MB 级别... ]]></description>
-    <pubDate>Wed, 04 Feb 2026 02:21:25 GMT</pubDate>
+    <pubDate>Sat, 14 Feb 2026 07:17:10 GMT</pubDate>
+  </item><item>
+    <title>Go-MOC</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go-MOC</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go-MOC</guid>
+    <description><![CDATA[ Go语言是许多服务器和容器的原生语言，也是当代兴起的语言，我们学习Go语言 Go语言语法设计 Go语言语法 接口 多线程与并发 . ]]></description>
+    <pubDate>Fri, 13 Feb 2026 13:17:14 GMT</pubDate>
   </item><item>
     <title>Go语言语法</title>
     <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</link>
     <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</guid>
     <description><![CDATA[ 语言特性 less can be more 这是go语言的核心思想 在go语言中，没有继承，多态，甚至是类 在go的文档中说Go语言几乎和C/C++一样快实则不然 语法 变量定义 在go语言中，主要采用类型后置的命名方式： var age int = 25 \\ 经典定义方式 var age = 25 \\ 自动推断，类似C++中 auto age := 25 \\ 简短定义，等效上一条 在Golang中支持批量的定义 var( a string b int c bool d float32 ) 我们需要注意Golang的命名规则，即首字母大写的命名在包外是可以访问的 输入输出流(CLI下) ... ]]></description>
-    <pubDate>Wed, 04 Feb 2026 02:14:03 GMT</pubDate>
+    <pubDate>Thu, 12 Feb 2026 11:55:02 GMT</pubDate>
   </item><item>
-    <title>ABC-418</title>
-    <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/Atcoder/ABC-418</link>
-    <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/Atcoder/ABC-418</guid>
-    <description><![CDATA[ A 签到,使用substr()方法即可得出答案 B 注意到当 t 连续出现三次的时候可以组成一个覆盖率1的情况. ]]></description>
-    <pubDate>Wed, 04 Feb 2026 02:08:43 GMT</pubDate>
+    <title>User Space and Kernel Space</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/User-Space-and-Kernel-Space</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/User-Space-and-Kernel-Space</guid>
+    <description><![CDATA[  在 Linux 操作系统中，用户空间 (User Space) 和 内核空间 (Kernel Space) 是操作系统为了保证安全性和稳定性，在硬件（CPU）支持下进行的逻辑隔离 定义 用户空间 用户空间是普通应用程序运行的地方，具有低特权级别，不能直接访问底层硬件和受保护的内存区域 内核空间 内核空间是操作系统的核心（Kernel）运行的地方。它拥有最高特权，可以直接控制 CPU、内存、磁盘、网卡等所有硬件资源 异同 特性**用户空间 **内核空间特权等级低特权 (Ring 3)高特权 (Ring 0)硬件访问不允许直接访问，必须通过系统调用可以直接访问 CPU、内存、I/O 等内存分配只... ]]></description>
+    <pubDate>Tue, 10 Feb 2026 09:24:26 GMT</pubDate>
   </item><item>
-    <title>题解I</title>
-    <link>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</link>
-    <guid>https://imicola.github.io/ACM/%E9%A2%98%E8%A7%A3/%E6%95%A3%E9%A2%98%E9%A2%98%E8%A7%A3/%E9%A2%98%E8%A7%A3I</guid>
-    <description><![CDATA[ Problem - 2144D - Codeforces Background 给定一个数组A和两个整数k,x其中x &gt; 1你需要求出\sum\limits_{i=1}^{n-1} \left\lceil \frac{a_{i}}{x} \right\rceil,同时k表示a_{i}变为\left\lceil \frac{a_{i}}{x} \right\rceil后需要的代价,但是如果原本的数组中存在元素 \left\lceil \frac{a_{i}}{x} \right\rceil 就不用付出代价,你的任务是最大化 \sum\limits_{i=1}^{n-1} \left\lce... ]]></description>
-    <pubDate>Wed, 04 Feb 2026 02:08:34 GMT</pubDate>
+    <title>浮游叙事</title>
+    <link>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%97%B2%E8%B0%88/%E6%B5%AE%E6%B8%B8%E5%8F%99%E4%BA%8B</link>
+    <guid>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%97%B2%E8%B0%88/%E6%B5%AE%E6%B8%B8%E5%8F%99%E4%BA%8B</guid>
+    <description><![CDATA[ 浮游叙事——2025 年终总结 年终，再过几个小时就意味着2025年的离去，在每一年在尽头的时候，我们都会不禁感慨到今年的一年过的是如此的迅速，时间从来都是最无情的，用不快不慢的速度在向着前面走去，仿佛一个独行的满腔执念的人一样，全然不顾周围。 每年的年终总结时间，想到的一个念头便是 “平凡”，甚至是枯燥。“平凡”的一年让我在回忆的时候无法想到最令我记忆深刻的事情，甚至无法让我回忆起什么事情是今年发生的，什么事情是去年发生的。人的记忆就是如此，去掉了一切不必要的，模糊的，细节的东西，只在脑海中留个“感觉”，这种感觉让我们能在看到照片时迸发，能在我们与好友交谈时突兀的冒出来，能在夜深人静的时候一... ]]></description>
+    <pubDate>Mon, 09 Feb 2026 15:34:59 GMT</pubDate>
   </item><item>
-    <title>DP问题全记录</title>
-    <link>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</link>
-    <guid>https://imicola.github.io/ACM/%E7%AE%97%E6%B3%95/DP-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP%E9%97%AE%E9%A2%98%E5%85%A8%E8%AE%B0%E5%BD%95</guid>
-    <description><![CDATA[ Q1 CF2135A 我们定义一个块(block)为其中所有元素都等于数组长度的数组。例如，[3,3,3]、[1] 和 [4,4,4,4] 都是块，而 [1,1,1] 和 [2,3,3] 则不是。 若一个数组可以通过任意数量(可能为零)的块连接而成，则称其为整洁数组(neat array)。注意空数组总是整洁的。 给定一个由 n 个整数组成的数组 a，请找出其最长的整洁子序列∗的长度。 ∗序列 c 是序列 a 的子序列，当且仅当 c 可以通过从 a 的任意位置删除若干个(可能为零或全部)元素得到。 Ac代码 void solve() { int n; cin &gt;&gt; n; vint ... ]]></description>
-    <pubDate>Wed, 04 Feb 2026 02:06:42 GMT</pubDate>
+    <title>目录访问与文件操作</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E7%9B%AE%E5%BD%95%E8%AE%BF%E9%97%AE%E4%B8%8E%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E7%9B%AE%E5%BD%95%E8%AE%BF%E9%97%AE%E4%B8%8E%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C</guid>
+    <description><![CDATA[ 操作文件与目录 在 linux 中进行操作文件与目录是使用 Linux 的最基础的一个功能，在linux中不同于Windows和macOS下在图形界面简单拖拽文件就能完成文件移动，在linux中我们更加倾向于在命令行中完成操作 查看当前命令行目录 要想进行文件管理和操作，我们得先知道我们在哪？一般而言，shell环境会显示我们当前的位置，这点我们在 在shell中导航 这一块中有提到，同时，使用pwd命令也可以获取我们目前shell所在的目录 查看文件夹内容 我们主要通过 ls 命令来查看当前文件夹下的内容，ls默认会隐藏目录下 . ]]></description>
+    <pubDate>Sun, 08 Feb 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
