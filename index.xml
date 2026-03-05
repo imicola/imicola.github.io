@@ -10,13 +10,31 @@
     <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
     <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 26 Feb 2026 09:54:19 GMT</pubDate>
+    <pubDate>Thu, 05 Mar 2026 02:09:20 GMT</pubDate>
   </item><item>
-    <title>进程、前后台、服务与例行性任务</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E3%80%81%E5%89%8D%E5%90%8E%E5%8F%B0%E3%80%81%E6%9C%8D%E5%8A%A1%E4%B8%8E%E4%BE%8B%E8%A1%8C%E6%80%A7%E4%BB%BB%E5%8A%A1</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E3%80%81%E5%89%8D%E5%90%8E%E5%8F%B0%E3%80%81%E6%9C%8D%E5%8A%A1%E4%B8%8E%E4%BE%8B%E8%A1%8C%E6%80%A7%E4%BB%BB%E5%8A%A1</guid>
-    <description><![CDATA[ 进程 进程是运行中的程序的实例，是操作系统进行资源分配和调度的基本单位，当然这些更加底层的事情我们会留到操作系统这门课的时候进行讲解 我们在window上可以通过任务管理器很轻松的看见运行在电脑上的进程，在linux中我们也有观察系统进程的工具 Linux进程管理器 很多人会推荐 htop 这一个工具来进行进程管理，这个工具是top命令的改良，可以很方便的查看当前所有的进程以及系统CPU，内存占用等信息，而且其占用低 我更推荐 btop 工具，在功能性上其完全不输 htop，只需要付出一点点的占用代价就能获得更加直观与全面的分析，同时更加美观~~(颜值即实用)~~，可以通过 btop 界面上展... ]]></description>
-    <pubDate>Thu, 26 Feb 2026 09:53:40 GMT</pubDate>
+    <title>out</title>
+    <link>https://imicola.github.io/attachments/out</link>
+    <guid>https://imicola.github.io/attachments/out</guid>
+    <description><![CDATA[ 这是对文件[Go/Learn/buildgo/test]的内核调用分析，使用命令 “strace -o out ./test”,test文件编译前为： package main import &quot;fmt&quot; func main() { fmt.Println(&quot;Hello world&quot;) } 以下为原输出 execve(“./test”, [“./test”], 0x7ffe46f1af40 /* 38 vars /) = 0 arch_prctl(ARCH_SET_FS, 0x56eb88) = 0 sched_getaffinity(0, 8192, [... ]]></description>
+    <pubDate>Thu, 05 Mar 2026 02:07:41 GMT</pubDate>
+  </item><item>
+    <title>Linux的网络工具</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/Linux%E7%9A%84%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/Linux%E7%9A%84%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7</guid>
+    <description><![CDATA[ 命令行网络 如果你是使用实体机进行Linux的使用，那么你的终端网络和实体机网络应该是一致的，如果是虚拟机或者WSL上，那么你的终端可能会通过主机创建的 “虚拟网卡” 进行网络访问，当然这不会对我们这一节学习的内容有太大影响，如果想要了解详细内容，可以学习计算机网络的具体内容 网络下载 在Windows上我们有很多的 「下载器」 例如 「迅雷」，「IDM」等这些软件来下载网络资源和文件，但是在Linux下呢？在一个黑乎乎的终端界面如何进行下载？ 下面会介绍两个命令工具，来让我们实现在命令行中进行轻量的下载活动 Wget wget是强力方便的下载工具，可以通过HTTP 和 FTP 协议从因特网中... ]]></description>
+    <pubDate>Tue, 03 Mar 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>文件系统层次</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%B1%82%E6%AC%A1</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%B1%82%E6%AC%A1</guid>
+    <description><![CDATA[ 文件系统 在 Windows 中，文件分区以盘符的形式表示，如 「C盘」,「D盘」这样的说法，而Linux/Unix系列采用 “树状结构” 的挂载方式： 整个系统的文件都从 / 开始，像一棵树一样 10:43:25 with imicola in ~ is 📦 None … ➜ tree -L 1 / / ├── bin -&gt; usr/bin ├── boot ├── dev ├── etc ├── home ├── init ├── lib -&gt; usr/lib ├── lib64 -&gt; usr/lib ├── lost+found ├── mnt ├── opt ├──... ]]></description>
+    <pubDate>Mon, 02 Mar 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>用户与用户组</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E7%94%A8%E6%88%B7%E4%B8%8E%E7%94%A8%E6%88%B7%E7%BB%84</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E7%94%A8%E6%88%B7%E4%B8%8E%E7%94%A8%E6%88%B7%E7%BB%84</guid>
+    <description><![CDATA[ 用户与用户组 我们为什么需要一个用户？ 在操作系统中，用户的含义并不是指 坐在电脑前的人，而更像是一个抽象的身份标识。更具体的说，用户是操作系统去进行权限分配和资源分配的基本单位 在服务器环境中，「用户」的概念是明确的：服务器的管理员可以为不同的使用者创建用户，分配不同的权限，保障系统的正常运行；也可以为网络服务创建用户（此时，用户就不再是一个有血有肉的人)，通过权限限制，以减小服务被攻击时对系统安全的破坏。 而对于个人用户来说，他们的设备不会有第二个人在使用。此时，现代操作系统一般区分使用者的用户与「系统用户」，并且划分权限，以尽可能保证系统的完整性不会因为用户的误操作或恶意程序而遭到破坏。... ]]></description>
+    <pubDate>Thu, 26 Feb 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>接口</title>
     <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E6%8E%A5%E5%8F%A3</link>
@@ -30,6 +48,12 @@
     <description><![CDATA[ 代码不能完全按照您的想法运行，它只能完全按照您的写法运行。 在算法或者数据结构课程上我们会学习大O表示法用来表示程序的复杂度，但是却很少教我们如何找到程序中的热点，鉴于过早优化是万恶之源，我们应该了解一下性能分析器 (profilers) 和监控工具。它们会帮助我们找到程序中最耗时、最耗资源的部分，从而让我们能够集中精力优化这些特定的部分。 计时 和调试一致，我们可以打印代码从一处到另外一处所消耗的时间就可以发现问题 import time, random n = random.randint(1, 10) * 100 # 获取当前时间 start = time.time() # 做些工作 p... ]]></description>
     <pubDate>Mon, 23 Feb 2026 04:33:53 GMT</pubDate>
   </item><item>
+    <title>进程、前后台、服务与例行性任务</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E3%80%81%E5%89%8D%E5%90%8E%E5%8F%B0%E3%80%81%E6%9C%8D%E5%8A%A1%E4%B8%8E%E4%BE%8B%E8%A1%8C%E6%80%A7%E4%BB%BB%E5%8A%A1</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E3%80%81%E5%89%8D%E5%90%8E%E5%8F%B0%E3%80%81%E6%9C%8D%E5%8A%A1%E4%B8%8E%E4%BE%8B%E8%A1%8C%E6%80%A7%E4%BB%BB%E5%8A%A1</guid>
+    <description><![CDATA[ 进程 进程是运行中的程序的实例，是操作系统进行资源分配和调度的基本单位，当然这些更加底层的事情我们会留到操作系统这门课的时候进行讲解 我们在window上可以通过任务管理器很轻松的看见运行在电脑上的进程，在linux中我们也有观察系统进程的工具 Linux进程管理器 很多人会推荐 htop 这一个工具来进行进程管理，这个工具是top命令的改良，可以很方便的查看当前所有的进程以及系统CPU，内存占用等信息，而且其占用低 我更推荐 btop 工具，在功能性上其完全不输 htop，只需要付出一点点的占用代价就能获得更加直观与全面的分析，同时更加美观~~(颜值即实用)~~，可以通过 btop 界面上展... ]]></description>
+    <pubDate>Fri, 20 Feb 2026 16:00:00 GMT</pubDate>
+  </item><item>
     <title>多线程与并发</title>
     <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</link>
     <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91</guid>
@@ -41,30 +65,6 @@
     <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go-MOC</guid>
     <description><![CDATA[ Go语言是许多服务器和容器的原生语言，也是当代兴起的语言，我们学习Go语言 Go语言语法设计 Go语言语法 接口 多线程与并发 . ]]></description>
     <pubDate>Fri, 13 Feb 2026 13:17:14 GMT</pubDate>
-  </item><item>
-    <title>Go语言语法</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95</guid>
-    <description><![CDATA[ 语言特性 less can be more 这是go语言的核心思想 在go语言中，没有继承，多态，甚至是类 在go的文档中说Go语言几乎和C/C++一样快实则不然 语法 变量定义 在go语言中，主要采用类型后置的命名方式： var age int = 25 \\ 经典定义方式 var age = 25 \\ 自动推断，类似C++中 auto age := 25 \\ 简短定义，等效上一条 在Golang中支持批量的定义 var( a string b int c bool d float32 ) 我们需要注意Golang的命名规则，即首字母大写的命名在包外是可以访问的 输入输出流(CLI下) ... ]]></description>
-    <pubDate>Thu, 12 Feb 2026 11:55:02 GMT</pubDate>
-  </item><item>
-    <title>User Space and Kernel Space</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/User-Space-and-Kernel-Space</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/User-Space-and-Kernel-Space</guid>
-    <description><![CDATA[  在 Linux 操作系统中，用户空间 (User Space) 和 内核空间 (Kernel Space) 是操作系统为了保证安全性和稳定性，在硬件（CPU）支持下进行的逻辑隔离 定义 用户空间 用户空间是普通应用程序运行的地方，具有低特权级别，不能直接访问底层硬件和受保护的内存区域 内核空间 内核空间是操作系统的核心（Kernel）运行的地方。它拥有最高特权，可以直接控制 CPU、内存、磁盘、网卡等所有硬件资源 异同 特性**用户空间 **内核空间特权等级低特权 (Ring 3)高特权 (Ring 0)硬件访问不允许直接访问，必须通过系统调用可以直接访问 CPU、内存、I/O 等内存分配只... ]]></description>
-    <pubDate>Tue, 10 Feb 2026 09:24:26 GMT</pubDate>
-  </item><item>
-    <title>浮游叙事</title>
-    <link>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%97%B2%E8%B0%88/%E6%B5%AE%E6%B8%B8%E5%8F%99%E4%BA%8B</link>
-    <guid>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%97%B2%E8%B0%88/%E6%B5%AE%E6%B8%B8%E5%8F%99%E4%BA%8B</guid>
-    <description><![CDATA[ 浮游叙事——2025 年终总结 年终，再过几个小时就意味着2025年的离去，在每一年在尽头的时候，我们都会不禁感慨到今年的一年过的是如此的迅速，时间从来都是最无情的，用不快不慢的速度在向着前面走去，仿佛一个独行的满腔执念的人一样，全然不顾周围。 每年的年终总结时间，想到的一个念头便是 “平凡”，甚至是枯燥。“平凡”的一年让我在回忆的时候无法想到最令我记忆深刻的事情，甚至无法让我回忆起什么事情是今年发生的，什么事情是去年发生的。人的记忆就是如此，去掉了一切不必要的，模糊的，细节的东西，只在脑海中留个“感觉”，这种感觉让我们能在看到照片时迸发，能在我们与好友交谈时突兀的冒出来，能在夜深人静的时候一... ]]></description>
-    <pubDate>Mon, 09 Feb 2026 15:34:59 GMT</pubDate>
-  </item><item>
-    <title>目录访问与文件操作</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E7%9B%AE%E5%BD%95%E8%AE%BF%E9%97%AE%E4%B8%8E%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/Linux%E7%B3%BB%E7%BB%9F/%E7%9B%AE%E5%BD%95%E8%AE%BF%E9%97%AE%E4%B8%8E%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C</guid>
-    <description><![CDATA[ 操作文件与目录 在 linux 中进行操作文件与目录是使用 Linux 的最基础的一个功能，在linux中不同于Windows和macOS下在图形界面简单拖拽文件就能完成文件移动，在linux中我们更加倾向于在命令行中完成操作 查看当前命令行目录 要想进行文件管理和操作，我们得先知道我们在哪？一般而言，shell环境会显示我们当前的位置，这点我们在 在shell中导航 这一块中有提到，同时，使用pwd命令也可以获取我们目前shell所在的目录 查看文件夹内容 我们主要通过 ls 命令来查看当前文件夹下的内容，ls默认会隐藏目录下 . ]]></description>
-    <pubDate>Sun, 08 Feb 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
