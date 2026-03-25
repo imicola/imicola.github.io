@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"09d185f32a8589d1","x":2700,"y":184,"width":1220,"height":1296,"type":"group","label":"解决方案"},
+		{"id":"af26001ee88eb386","type":"group","x":1280,"y":-400,"width":1081,"height":854,"label":"需要理解的/proc文件"},
+		{"id":"4428fbe02e324c48","type":"text","text":"了解/proc文件","x":600,"y":-90,"width":250,"height":60,"color":"1"},
+		{"id":"dd42136180e08c16","type":"text","text":"我们的目标是：\n\n- 使用纯Go语言开发\n- 用户输入一个端口号(例如 `8080`)工具能够:\n    - 准确定位占用这个端口号的进程\n    - 获取这个进程的名称，完整启动命令以及所属用户\n\n限制条件是：不使用 `os/exec` 执行外部命令，所有数据通过读取 `/proc` 或者系统调用获取","x":-200,"y":-220,"width":590,"height":320,"color":"2"},
+		{"id":"d018db331d5aa12a","type":"file","file":"SRE入门/Linux/高级Linux知识/proc/什么是Proc.md","x":533,"y":-740,"width":367,"height":414},
+		{"id":"e09cbb4ff8733aa1","type":"text","text":"# 如何从网络出发找到进程\n\n- 读取整个系统的网络链接，即 `/proc/net/tcp` 文件\n- 反解出十六进制参数后找到对应进程inode\n- indoe会在`/proc/[PID]/fd/3` 中link\n- 所以我们需要遍历所有\\[pid]文件夹寻找inode\n- 找到inode后就能确定程序pid，然后就能通过查询 `/proc/[pid]/status` 和 `cmdline` 来获取详细信息","x":2021,"y":-326,"width":299,"height":690},
+		{"id":"0234c9edce9c9e76","type":"text","text":"fd/3","x":1675,"y":-96,"width":250,"height":60},
+		{"id":"d90a16cbab630227","type":"text","text":"GO语言编写","x":1050,"y":920,"width":250,"height":60,"color":"1"},
+		{"id":"0498e4f798803c31","type":"text","text":"成品","x":1050,"y":1500,"width":250,"height":60,"color":"1"},
+		{"id":"33f402f8de1163c3","type":"text","text":"/proc/net/tcp","x":1300,"y":-386,"width":250,"height":60},
+		{"id":"ba4e660870cf2b9e","type":"text","text":"[[proc-net-tcp]]","x":1675,"y":-386,"width":250,"height":60},
+		{"id":"1961cc5d3f94d91b","type":"text","text":"# 需要解决的问题\n\n- [x] 所有文件的读取问题\n- [x] 权限问题\n- [x] 找到目标端口号并且筛出inode\n- [x] `/proc/[pid]/fd/3`是一个symbolic link,如何用go读出这个link的指向\n- [ ] 效率问题，怎么用协程跑\n- [x] go语言的文件解析与文件夹解析","x":1675,"y":844,"width":445,"height":436},
+		{"id":"19e807690c959bf6","type":"text","text":"/proc/\\[PID]/","x":1300,"y":334,"width":250,"height":60},
+		{"id":"4d0e1b4fd801955a","type":"text","text":"cmdline","x":1675,"y":334,"width":250,"height":60},
+		{"id":"fe1e1a81c5380665","type":"text","text":"status","x":1675,"y":204,"width":250,"height":60},
+		{"id":"a59a3ca783e5bb26","type":"text","text":"[[proc-pid]]","x":1300,"y":174,"width":250,"height":60},
+		{"id":"541cae7dae35adc9","type":"file","file":"SRE入门/Go语言/文件读写.md","x":2720,"y":204,"width":640,"height":480},
+		{"id":"3011ed20d2ce7bad","x":2720,"y":844,"width":640,"height":418,"type":"file","file":"SRE入门/Lab/简单的端口追踪工具/go语言的文件解析和文件夹解析.md"},
+		{"id":"52a5c98e513c19e3","x":3466,"y":844,"width":414,"height":375,"type":"text","text":"# 权限问题\n\n一般而言，涉及权限的操作有:\n- 文件的 **读**，**写**,**执行**\n\n当遇到权限问题的时候，会抛出`err`,正常情况下，写个 log 跳过对当前文件的操作即可，如果这一步是必要的，那就抛出一个提示提醒用户，然后结束程序"},
+		{"id":"8a8d4eb8533fcb83","x":3466,"y":204,"width":400,"height":200,"type":"text","text":"# 对于文件链接的读取\n\n直接使用 `os.Readlink` 函数即可，这个函数接受文件路径，并且返回一个字符串表示文件链接"}
+	],
+	"edges":[
+		{"id":"2ab8f59f184659ed","fromNode":"dd42136180e08c16","fromSide":"right","toNode":"4428fbe02e324c48","toSide":"left","color":"1"},
+		{"id":"e3de3b2c2f67a58f","fromNode":"ba4e660870cf2b9e","fromSide":"bottom","toNode":"0234c9edce9c9e76","toSide":"top","label":"inode"},
+		{"id":"68b8ff9680ce9268","fromNode":"19e807690c959bf6","fromSide":"right","toNode":"4d0e1b4fd801955a","toSide":"left"},
+		{"id":"eb279b6b8ccbce82","fromNode":"33f402f8de1163c3","fromSide":"right","toNode":"ba4e660870cf2b9e","toSide":"left"},
+		{"id":"a274d6e0d5d51692","fromNode":"19e807690c959bf6","fromSide":"right","toNode":"fe1e1a81c5380665","toSide":"left"},
+		{"id":"eff422e6eb8c9030","fromNode":"a59a3ca783e5bb26","fromSide":"top","toNode":"0234c9edce9c9e76","toSide":"left","fromEnd":"arrow","label":"反查"},
+		{"id":"738c01c4f2b70a16","fromNode":"a59a3ca783e5bb26","fromSide":"bottom","toNode":"19e807690c959bf6","toSide":"top"},
+		{"id":"c62c4c8f244b36c5","fromNode":"4428fbe02e324c48","fromSide":"right","toNode":"d90a16cbab630227","toSide":"top","color":"1"},
+		{"id":"0adf16a9a5f09182","fromNode":"4428fbe02e324c48","fromSide":"top","toNode":"d018db331d5aa12a","toSide":"bottom","toEnd":"none","color":"4"},
+		{"id":"eff04c3e2a9e716b","fromNode":"4428fbe02e324c48","fromSide":"right","toNode":"33f402f8de1163c3","toSide":"left","toEnd":"none","color":"4"},
+		{"id":"971cd65203c2ec85","fromNode":"d90a16cbab630227","fromSide":"right","toNode":"1961cc5d3f94d91b","toSide":"left","toEnd":"none","color":"4"},
+		{"id":"1bcf66f13ba38572","fromNode":"d90a16cbab630227","fromSide":"bottom","toNode":"0498e4f798803c31","toSide":"top","color":"1"},
+		{"id":"18621388b75192bb","fromNode":"1961cc5d3f94d91b","fromSide":"right","toNode":"09d185f32a8589d1","toSide":"left"}
+	]
+}
