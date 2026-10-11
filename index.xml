@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on imicola&#039;s Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>笔记属性</title>
-    <link>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</link>
-    <guid>https://imicola.github.io/%E6%A8%A1%E6%9D%BF/%E7%AC%94%E8%AE%B0%E5%B1%9E%E6%80%A7</guid>
+    <title>0.K8s架构</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/k8s/0.K8s%E6%9E%B6%E6%9E%84</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/k8s/0.K8s%E6%9E%B6%E6%9E%84</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 25 Mar 2026 06:09:48 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 09:56:32 GMT</pubDate>
   </item><item>
-    <title>计算机网络-自顶向下方法导读</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E8%87%AA%E9%A1%B6%E5%90%91%E4%B8%8B%E6%96%B9%E6%B3%95%E5%AF%BC%E8%AF%BB</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E8%87%AA%E9%A1%B6%E5%90%91%E4%B8%8B%E6%96%B9%E6%B3%95%E5%AF%BC%E8%AF%BB</guid>
-    <description><![CDATA[ 对计算机网络的导读,从章节上拆分本书 ]]></description>
-    <pubDate>Thu, 19 Mar 2026 16:00:00 GMT</pubDate>
+    <title>1.将一个服务放入集群</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/k8s/1.%E5%B0%86%E4%B8%80%E4%B8%AA%E6%9C%8D%E5%8A%A1%E6%94%BE%E5%85%A5%E9%9B%86%E7%BE%A4</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/k8s/1.%E5%B0%86%E4%B8%80%E4%B8%AA%E6%9C%8D%E5%8A%A1%E6%94%BE%E5%85%A5%E9%9B%86%E7%BE%A4</guid>
+    <description><![CDATA[ 为了将一个服务或者Docker镜像放入集群中，我们需要设计两个配置文件，即 deployment.yaml 和 services.yaml deployment deployment.yaml 告诉k8s架构中的 Deployment Controller 如何构建Pod 一般来说一个 deployment.yaml 只负责一个类型的Pod的构建，因为这样便于管理 deployment.yaml 的格式架构一般展示为下面的样式： Deployment ├── metadata：Deployment 自己叫什么、放在哪里 └── spec：Deployment 要实现什么 ├── replica... ]]></description>
+    <pubDate>Mon, 05 Oct 2026 13:00:21 GMT</pubDate>
   </item><item>
-    <title>go语言的文件解析和文件夹解析</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Lab/%E7%AE%80%E5%8D%95%E7%9A%84%E7%AB%AF%E5%8F%A3%E8%BF%BD%E8%B8%AA%E5%B7%A5%E5%85%B7/go%E8%AF%AD%E8%A8%80%E7%9A%84%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9%E8%A7%A3%E6%9E%90</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Lab/%E7%AE%80%E5%8D%95%E7%9A%84%E7%AB%AF%E5%8F%A3%E8%BF%BD%E8%B8%AA%E5%B7%A5%E5%85%B7/go%E8%AF%AD%E8%A8%80%E7%9A%84%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9%E8%A7%A3%E6%9E%90</guid>
-    <description><![CDATA[ 解析问题 在写这个 Lab 的时候遇到了很多go语言读入文件后进行解析的问题，比如对 net/tcp 进行解析获取 inode ,又或者是对 pid/cmdline 的 \x00 分割进行解析，下面简单介绍一下如何 net/tcp net/tcp 文件的主要形式是： 对于go语言来说，使用常规的 spilt 进行划分其实是不太可行的，这里的划分使用了类似制表符的方式，在 Lab 中我们的解决方式是 sl := strings.Fields(s) strings.Fields() 接受一个字符串参数，并且会返回一个字符串切片，这个函数会将原始字符串中的一个或者多个连续的空格进行切割，然后返回这个... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 16:00:00 GMT</pubDate>
+    <title>Prometheus</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/%E5%B7%A5%E5%85%B7/Prometheus</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/%E5%B7%A5%E5%85%B7/Prometheus</guid>
+    <description><![CDATA[ prometheus(普罗米修斯)是一个系统和服务监控系统，普罗米修斯可以按给定间隔从配置的目标收集指标，评估规则表达式，显示结果，并可在观察到指定条件时触发告警 Prometheus抓取什么 在生产环境中，Prometheus一般运行在云端中，通过HTTP协议抓取集群中各个节点暴露的端口，而不是自己作为一个Agent去收集集群节点的环境 这就涉及到一个约定问题，普罗米修斯如何正确的读取到节点返回的响应? metrics定义与Gauge文本格式 我们先明确三个定义: 指标（Metric）：一个带有明确名称和单位的测量值，HTTP 接口只是把这次测量值交给外部读取的传输载体 仪表盘指标（Gaug... ]]></description>
+    <pubDate>Sun, 04 Oct 2026 19:01:07 GMT</pubDate>
   </item><item>
-    <title>简单的端口查询Lab</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Lab/%E7%AE%80%E5%8D%95%E7%9A%84%E7%AB%AF%E5%8F%A3%E8%BF%BD%E8%B8%AA%E5%B7%A5%E5%85%B7/%E7%AE%80%E5%8D%95%E7%9A%84%E7%AB%AF%E5%8F%A3%E6%9F%A5%E8%AF%A2Lab</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Lab/%E7%AE%80%E5%8D%95%E7%9A%84%E7%AB%AF%E5%8F%A3%E8%BF%BD%E8%B8%AA%E5%B7%A5%E5%85%B7/%E7%AE%80%E5%8D%95%E7%9A%84%E7%AB%AF%E5%8F%A3%E6%9F%A5%E8%AF%A2Lab</guid>
-    <description><![CDATA[ 这是Linux和go语言结合的一个实验 ]]></description>
-    <pubDate>Fri, 13 Mar 2026 16:00:00 GMT</pubDate>
+    <title>MemoryStore分层</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/HTTP%E5%BC%80%E5%8F%91/MemoryStore%E5%88%86%E5%B1%82</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/HTTP%E5%BC%80%E5%8F%91/MemoryStore%E5%88%86%E5%B1%82</guid>
+    <description><![CDATA[ MemoryStore的分层主要是将数据库中的需要的操作都抽象分离开，在原理的设计中，Handler操作全局状态的 Targets 和 mux。但是显然这样会出现或多或少的问题 比如当我们进行并发测试等，虽然我们有锁了，但是对于连续的两个测试来说，如果只靠锁，无法解决串行污染和数据污染的问题，我们需要在每次测试前初始化数据让测试得以进行，这同时就直觉性的引出我们需要将对数据的操作 “抽象” 出来的思想，于是我们遍设计了 MemoryStore分层这样的工程架构 什么架构? package main import ( &quot;errors&quot; &quot;sync&quot; ) v... ]]></description>
+    <pubDate>Sun, 27 Sep 2026 15:21:11 GMT</pubDate>
   </item><item>
-    <title>开源</title>
-    <link>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/%E5%BC%80%E6%BA%90</link>
-    <guid>https://imicola.github.io/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/%E5%BC%80%E6%BA%90</guid>
-    <description><![CDATA[ 开源是什么 开源顾名思义就是开放源代码的意思，开源社区以及开源项目已经构成现代互联网非常重要的基石，很多项目都会使用开源项目甚至是以开源项目为基础构建的 为什么要开源. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 02:28:33 GMT</pubDate>
+    <title>PostgreSQL最小持久化</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/HTTP%E5%BC%80%E5%8F%91/PostgreSQL%E6%9C%80%E5%B0%8F%E6%8C%81%E4%B9%85%E5%8C%96</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/HTTP%E5%BC%80%E5%8F%91/PostgreSQL%E6%9C%80%E5%B0%8F%E6%8C%81%E4%B9%85%E5%8C%96</guid>
+    <description><![CDATA[ 对于一个后端程序，需要链接数据库，而CRUD也有在数据库层面上进行的内容，本文的目标就是，不仅仅将 HTTP 的CRUD局限在内存与 go 语言操作中，而是去操作PostgreSQL 核心接口 实际上，完成对 PostgreSQL 的操作，我们需要使用 pgx 和 database/sql 主要使用的接口是 query := `SELECT id, name, address FROM targets WHERE id = $1` row := store.db.QueryRowContext(ctx, query, id) err := row.Scan(&amp;target.Id, &a... ]]></description>
+    <pubDate>Sat, 26 Sep 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>爱国公司OpenAI食用手册</title>
-    <link>https://imicola.github.io/%E6%9D%82%E9%A1%B9/%E7%88%B1%E5%9B%BD%E5%85%AC%E5%8F%B8OpenAI%E9%A3%9F%E7%94%A8%E6%89%8B%E5%86%8C</link>
-    <guid>https://imicola.github.io/%E6%9D%82%E9%A1%B9/%E7%88%B1%E5%9B%BD%E5%85%AC%E5%8F%B8OpenAI%E9%A3%9F%E7%94%A8%E6%89%8B%E5%86%8C</guid>
-    <description><![CDATA[ 快速食用指南 找个无限邮箱注册机构免费薅一些邮箱 进入闲鱼，关键词: “business拼车”，“team拼车” 选择价位 5-10 块钱的进行购买 按操作食用 前情提要 偶然见看到了Cloudflare提供邮箱路由功能，所以突发奇想准备进行对爱国公司Openai进行羊毛攻击 在薅羊毛之前，你需要准备的东西: 一个域名,如果是.com的最好 Cloudflare账户 1.将域名由Cloudflare托管 你可以直接在Cloudflare注册域名，然后选择托管 如果你是在其他平台购买的域名，可以搜索域名转移，将域名转移到Cloudflare进行托管 2.为域名启动电子邮件路由功能 A: 是你的接... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 16:00:00 GMT</pubDate>
+    <title>雨，压力，压抑，和自我否定</title>
+    <link>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%9A%8F%E7%AC%94/%E9%9B%A8%EF%BC%8C%E5%8E%8B%E5%8A%9B%EF%BC%8C%E5%8E%8B%E6%8A%91%EF%BC%8C%E5%92%8C%E8%87%AA%E6%88%91%E5%90%A6%E5%AE%9A</link>
+    <guid>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%9A%8F%E7%AC%94/%E9%9B%A8%EF%BC%8C%E5%8E%8B%E5%8A%9B%EF%BC%8C%E5%8E%8B%E6%8A%91%EF%BC%8C%E5%92%8C%E8%87%AA%E6%88%91%E5%90%A6%E5%AE%9A</guid>
+    <description><![CDATA[ 哈尔滨下了小雨，明明是九月却没有舒适的气温和轻风，冰冷的风夹杂着雨点拍打在早八的大学生脸上。一场雨，宣告秋天的到来。季节变化在这个地方的变化体现的淋漓尽致，秋无情的宣告 —— 万物沉眠。 话说人是不是特别喜欢在秋冬季产生负面与消极情绪，可能因为触景生情，可能因为寒冷，可能因为上学（？）。回想一年以前来到大学，站在现在的视角回看一年的大学生活，没有小说式的起转承合，没有冲突和主线。平淡如水。但是就算是如水的生活，也总有些令人讨厌但是又不得不面对的事情，压力。有些压力来自别人，考试挂科的压力，学习的压力；更多的来自自己，一种不甘自己平庸的压力，一种不愿停留在当前压力。很多人对我说过只要做好自己能够... ]]></description>
+    <pubDate>Tue, 22 Sep 2026 14:56:04 GMT</pubDate>
   </item><item>
-    <title>继续在21世纪活下去</title>
-    <link>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E6%80%9D%E8%80%83/%E7%BB%A7%E7%BB%AD%E5%9C%A821%E4%B8%96%E7%BA%AA%E6%B4%BB%E4%B8%8B%E5%8E%BB</link>
-    <guid>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E6%80%9D%E8%80%83/%E7%BB%A7%E7%BB%AD%E5%9C%A821%E4%B8%96%E7%BA%AA%E6%B4%BB%E4%B8%8B%E5%8E%BB</guid>
-    <description><![CDATA[ 最近几天都有些睡眠不足，昨天晚上GitHub Education的一封邮件发过来说学生认证的模型将不再提供一些高级模型的选定和调用。其实这是一件小事，而且微软这么做也情有可原，全球200万学生用户，免费使用着这个世界普通人能用到的最贵的一档模型，收紧政策是正常的事情。但是很神奇的是，在收紧政策之后我开始思考替代方案和经济预算，这其实是反常的，因为我目前还处于学生状态，即没有工作压力，也不需要高强度的代码工作，为什么会自然而然的去思考这样的事情？ 今天早上起床后想到,其实会下意识这么思考是一种 “被社会裹挟的思维方式”，现在整个世界都在以一种疯狂的速度向前狂奔，从GPT-4的发布，到opencl... ]]></description>
-    <pubDate>Mon, 09 Mar 2026 16:00:00 GMT</pubDate>
+    <title>大语言模型也会梦见仿生人吗？</title>
+    <link>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E6%80%9D%E8%80%83/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E4%B9%9F%E4%BC%9A%E6%A2%A6%E8%A7%81%E4%BB%BF%E7%94%9F%E4%BA%BA%E5%90%97%EF%BC%9F</link>
+    <guid>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E6%80%9D%E8%80%83/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E4%B9%9F%E4%BC%9A%E6%A2%A6%E8%A7%81%E4%BB%BF%E7%94%9F%E4%BA%BA%E5%90%97%EF%BC%9F</guid>
+    <description><![CDATA[ 难得的失眠的夜，想着毕竟都睡不着觉不如写点这段时间陆陆续续一直在思考的问题，正好好久也没发公众号了（笑） 大语言模型(LLM)究竟有属于自己的思考吗？其实我知道这是一个假命题，LLM本质上是一堆神经网络和Transformer构成的大型矩阵运算器，通过分词器，将你输入的和自己输出的语句拆分成Token转换成向量，然后根据上下文表示的基础上去计算一个新的向量，最后再将这个计算出来的向量通过复杂的转换映射回Token，再将这个token加入矩阵后面继续做运算。 当然现在的LLM架构肯定有很多优化延伸内容，不过据我所知应该还是没有脱离Transformer架构，所以底层我们依旧可以抽象为一个庞大复杂... ]]></description>
+    <pubDate>Tue, 22 Sep 2026 14:55:17 GMT</pubDate>
   </item><item>
-    <title>文件读写</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99</guid>
-    <description><![CDATA[ 文件读写 小文件 如果你能确定你读取的文件或者你写入的数据量，那么你可以使用 os 提供的 ReadFile 和 WriteFile 函数 // 文件读入 data,err := os.ReadFile(&quot;example.txt&quot;) if err != nil{ log.Fatal(err) } fmt.Println(string(data)) // 文件写出 content := []byte(&quot;Hello Go&quot;) err := os.WriteFile(&quot;out.txt&quot;,content,0644) if err != nil... ]]></description>
-    <pubDate>Fri, 06 Mar 2026 16:00:00 GMT</pubDate>
+    <title>闲谈-逃离悲伤的梦</title>
+    <link>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%97%B2%E8%B0%88/%E9%97%B2%E8%B0%88-%E9%80%83%E7%A6%BB%E6%82%B2%E4%BC%A4%E7%9A%84%E6%A2%A6</link>
+    <guid>https://imicola.github.io/imicola%E7%9A%84%E6%80%9D%E7%BB%AA%E5%B0%8F%E5%B1%8B/%E9%97%B2%E8%B0%88/%E9%97%B2%E8%B0%88-%E9%80%83%E7%A6%BB%E6%82%B2%E4%BC%A4%E7%9A%84%E6%A2%A6</guid>
+    <description><![CDATA[ 试想一下，如果你对你的家庭有严重的阴影，或者你在高中学业时间被过分压力而高考没有取得满意成绩，又或者你在童年事情被霸凌被孤立，或者经历了一场没有结果的感情。这些事情让我们受伤，带给我们消极的，悲伤的时光，在一些安静的夜里，突如其来的闯入我们的脑海中。 不知道你有没有或多或少的听过这样的说法，说苦难是充实一个人的不可或缺的一部分，说失败是成功之母，说骄兵必败哀兵必胜（?）。有人叫它成功学，有人称呼它为苦难叙事，逐渐的，苦难在被粉饰，被美化，最后有的人竟然要求你对着曾经伤害过你的东西感激涕零。苦难成为了走向成功的标志，被解构成人生的主旋律。可是，这对吗？ 苦难就是苦难，它不会让你成功，相反，它是你... ]]></description>
+    <pubDate>Tue, 22 Sep 2026 14:54:38 GMT</pubDate>
   </item><item>
-    <title>proc-net-tcp</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E9%AB%98%E7%BA%A7Linux%E7%9F%A5%E8%AF%86/proc/proc-net-tcp</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E9%AB%98%E7%BA%A7Linux%E7%9F%A5%E8%AF%86/proc/proc-net-tcp</guid>
-    <description><![CDATA[  Info 使用 cat 读取 /proc/net/tcp： 20:26:16 with imicola in /proc  … ➜ cat net/tcp sl local_address rem_address st tx_queue rx_queue tr tm→when retrnsmt uid timeout inode 0: 3600007F:0035 00000000:0000 0A 00000000:00000000 00:00000000 00000000 975 0 19504 1 00000000a4229c44 100 0 0 10 5 1: 00000000:1F9... ]]></description>
-    <pubDate>Thu, 05 Mar 2026 16:00:00 GMT</pubDate>
+    <title>HTTP优雅退出流程</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/HTTP%E5%BC%80%E5%8F%91/HTTP%E4%BC%98%E9%9B%85%E9%80%80%E5%87%BA%E6%B5%81%E7%A8%8B</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/HTTP%E5%BC%80%E5%8F%91/HTTP%E4%BC%98%E9%9B%85%E9%80%80%E5%87%BA%E6%B5%81%E7%A8%8B</guid>
+    <description><![CDATA[ 我们之前写过http.ListenAndServe(&quot;:8080&quot;, mux) 这样的代码，这实际上是一个快捷函数，其在内部构造了 http.Server,但是我们没办法调用，配置它，所以在进行优雅退出前，我们先要了解如何自行配置http.Server Http.Server 其实很简单，其结构如下 server := &amp;http.Server{ Addr: &quot;:8080&quot;, Handler: mux, ReadHeaderTimeout: 5 * time.Second, // 客户端传入Header限制 ReadTimeout: 8 * ti... ]]></description>
+    <pubDate>Mon, 07 Sep 2026 08:29:33 GMT</pubDate>
   </item><item>
-    <title>什么是Proc</title>
-    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E9%AB%98%E7%BA%A7Linux%E7%9F%A5%E8%AF%86/proc/%E4%BB%80%E4%B9%88%E6%98%AFProc</link>
-    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Linux/%E9%AB%98%E7%BA%A7Linux%E7%9F%A5%E8%AF%86/proc/%E4%BB%80%E4%B9%88%E6%98%AFProc</guid>
-    <description><![CDATA[ Porc是什么? ]]></description>
-    <pubDate>Thu, 05 Mar 2026 16:00:00 GMT</pubDate>
+    <title>Go测试</title>
+    <link>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E6%B5%8B%E8%AF%95</link>
+    <guid>https://imicola.github.io/SRE%E5%85%A5%E9%97%A8/Go%E8%AF%AD%E8%A8%80/Go%E6%B5%8B%E8%AF%95</guid>
+    <description><![CDATA[ GO语言写单元测试有一套自己的体系，在Go中，文件名以 *_test.go 的文件是测试文件，只有在执行 go test 命令的时候才会编译他们 package main import &quot;testing&quot; func TestSomething(t *testing.T) { // 准备、执行、检查 } 在测试中，函数名采用 TestXxx,参数为 * testing.T，对于方法，我们目前了解下面三个就够用了 方法含义适合的情况t.Errorf(...)标记失败，继续当前测试某个字段不符，但其他字段仍能检查t.Fatalf(...)标记失败，停止当前测试函数的执行JSON ... ]]></description>
+    <pubDate>Sun, 06 Sep 2026 03:25:34 GMT</pubDate>
   </item>
     </channel>
   </rss>
